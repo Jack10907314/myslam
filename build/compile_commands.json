@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/FrontEnd.cpp.o -c /home/user/sda4/Desktop/myslam/src/FrontEnd.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/FrontEnd.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/System.cpp.o -c /home/user/sda4/Desktop/myslam/src/System.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/System.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/BackEnd.cpp.o -c /home/user/sda4/Desktop/myslam/src/BackEnd.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/BackEnd.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/config.cpp.o -c /home/user/sda4/Desktop/myslam/src/config.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/config.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/camera.cpp.o -c /home/user/sda4/Desktop/myslam/src/camera.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/camera.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/Map.cpp.o -c /home/user/sda4/Desktop/myslam/src/Map.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/Map.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/MapPoint.cpp.o -c /home/user/sda4/Desktop/myslam/src/MapPoint.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/MapPoint.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/Frame.cpp.o -c /home/user/sda4/Desktop/myslam/src/Frame.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/Frame.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/src",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -Dmyslam_EXPORTS -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3 -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -fPIC -std=gnu++11 -o CMakeFiles/myslam.dir/dataset.cpp.o -c /home/user/sda4/Desktop/myslam/src/dataset.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/src/dataset.cpp"
+},
+{
+  "directory": "/home/user/sda4/Desktop/myslam/build/example",
+  "command": "/usr/bin/c++  -I/usr/include/eigen3 -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -o CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o -c /home/user/sda4/Desktop/myslam/example/stereo_kitti.cpp",
+  "file": "/home/user/sda4/Desktop/myslam/example/stereo_kitti.cpp"
+}
+]
