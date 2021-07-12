@@ -37,3 +37,7 @@
 /home/user/sda4/Desktop/myslam/build/example/CMakeFiles/edit_cache.dir
 /home/user/sda4/Desktop/myslam/build/example/CMakeFiles/test.dir
 /home/user/sda4/Desktop/myslam/build/example/CMakeFiles/stereo_kitti.dir
+/home/user/sda4/Desktop/myslam/build/test/CMakeFiles/rebuild_cache.dir
+/home/user/sda4/Desktop/myslam/build/test/CMakeFiles/edit_cache.dir
+/home/user/sda4/Desktop/myslam/build/test/CMakeFiles/test.dir
+/home/user/sda4/Desktop/myslam/build/test/CMakeFiles/ORBfeature.dir

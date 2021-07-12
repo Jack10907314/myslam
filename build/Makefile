@@ -516,6 +516,19 @@ stereo_kitti/fast:
 	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/stereo_kitti.dir/build.make example/CMakeFiles/stereo_kitti.dir/build
 .PHONY : stereo_kitti/fast
 
+#=============================================================================
+# Target rules for targets named ORBfeature
+
+# Build rule for target.
+ORBfeature: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ORBfeature
+.PHONY : ORBfeature
+
+# fast build rule for target.
+ORBfeature/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ORBfeature.dir/build.make test/CMakeFiles/ORBfeature.dir/build
+.PHONY : ORBfeature/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -553,6 +566,7 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... ORBfeature"
 	@echo "... myslam"
 	@echo "... stereo_kitti"
 .PHONY : help

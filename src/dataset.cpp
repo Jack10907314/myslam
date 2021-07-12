@@ -68,11 +68,10 @@ Frame::Ptr Dataset::NextFrame() {
     cv::resize(image_right, image_right_resized, cv::Size(), 0.5, 0.5,
                cv::INTER_NEAREST);
 
-    auto new_frame = Frame::CreateFrame();
-    new_frame->left_img_ = image_left_resized;
-    new_frame->right_img_ = image_right_resized;
+    std::shared_ptr<Frame> newFrame(new Frame(current_image_index_, 0, SE3(), image_left_resized, image_right_resized));
     current_image_index_++;
-    return new_frame;
+    return newFrame;
+    return nullptr;
 }
 
 }  // namespace myslam

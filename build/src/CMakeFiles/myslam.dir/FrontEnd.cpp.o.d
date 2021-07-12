@@ -440,6 +440,129 @@ src/CMakeFiles/myslam.dir/FrontEnd.cpp.o: \
  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/optim.hpp \
  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ovx.hpp \
  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/features2d.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/miniflann.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/config.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/affine.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d/calib3d_c.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/flann_base.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+ /usr/include/c++/5/map /usr/include/c++/5/bits/stl_map.h \
+ /usr/include/c++/5/bits/stl_multimap.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/all_indices.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dynamic_bitset.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/composite_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/linear_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/hierarchical_clustering_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_table.h \
+ /usr/include/c++/5/iomanip /usr/include/c++/5/locale \
+ /usr/include/c++/5/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/5/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/5/bits/codecvt.h \
+ /usr/include/c++/5/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/5/bits/locale_conv.h \
+ /usr/include/c++/5/bits/stringfwd.h /usr/include/c++/5/bits/allocator.h \
+ /usr/include/c++/5/bits/codecvt.h /usr/include/c++/5/bits/unique_ptr.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/autotuned_index.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/ground_truth.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/index_testing.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/timer.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/sampling.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/highgui_c.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/imgproc_c.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/types_c.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs/imgcodecs_c.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio/videoio_c.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/ml.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/detection_based_tracker.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/objdetect_c.h \
+ /usr/include/c++/5/deque /usr/include/c++/5/bits/stl_deque.h \
+ /usr/include/c++/5/bits/deque.tcc \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo/photo_c.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/emdL1.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_transformer.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/hist_cost.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_distance.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/warpers.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda_types.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.inl.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/cuda.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/motion_estimators.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp \
+ /usr/include/c++/5/list /usr/include/c++/5/bits/stl_list.h \
+ /usr/include/c++/5/bits/list.tcc \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp \
+ /usr/include/c++/5/queue /usr/include/c++/5/bits/stl_queue.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/exposure_compensate.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/seam_finders.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/blenders.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres/optical_flow.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/background_segm.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking_c.h \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/stabilizer.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/global_motion.hpp \
+ /usr/include/c++/5/fstream \
+ /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h \
+ /usr/include/c++/5/bits/fstream.tcc \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/optical_flow.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_core.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/outlier_rejection.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_stabilizing.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/frame_source.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/log.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/inpainting.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/deblurring.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/ring_buffer.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/types.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/widgets.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/viz3d.hpp \
+ /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/vizcore.hpp \
  /usr/include/glog/logging.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -448,4 +571,8 @@ src/CMakeFiles/myslam.dir/FrontEnd.cpp.o: \
  /usr/local/include/gflags/gflags.h \
  /usr/local/include/gflags/gflags_declare.h \
  /usr/local/include/gflags/gflags_gflags.h \
- /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h
+ /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
+ /home/user/sda4/Desktop/myslam/include/Frame.h \
+ /home/user/sda4/Desktop/myslam/include/camera.h \
+ /home/user/sda4/Desktop/myslam/include/Map.h \
+ /home/user/sda4/Desktop/myslam/include/BackEnd.h

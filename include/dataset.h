@@ -1,3 +1,4 @@
+#pragma once
 #ifndef MYSLAM_DATASET_H
 #define MYSLAM_DATASET_H
 #include "camera.h"

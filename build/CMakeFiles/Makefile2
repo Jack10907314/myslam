@@ -65,11 +65,13 @@ CMAKE_BINARY_DIR = /home/user/sda4/Desktop/myslam/build
 # The main recursive "all" target.
 all: src/all
 all: example/all
+all: test/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: src/preinstall
 preinstall: example/preinstall
+preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -103,6 +105,7 @@ clean: CMakeFiles/ContinuousStart.dir/clean
 clean: CMakeFiles/ContinuousUpdate.dir/clean
 clean: src/clean
 clean: example/clean
+clean: test/clean
 .PHONY : clean
 
 #=============================================================================
@@ -134,6 +137,21 @@ src/preinstall:
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/myslam.dir/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory test
+
+# Recursive "all" directory target.
+test/all: test/CMakeFiles/ORBfeature.dir/all
+.PHONY : test/all
+
+# Recursive "preinstall" directory target.
+test/preinstall:
+.PHONY : test/preinstall
+
+# Recursive "clean" directory target.
+test/clean: test/CMakeFiles/ORBfeature.dir/clean
+.PHONY : test/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ContinuousSubmit.dir
@@ -870,7 +888,7 @@ CMakeFiles/ContinuousUpdate.dir/clean:
 src/CMakeFiles/myslam.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target myslam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12 "Built target myslam"
 .PHONY : src/CMakeFiles/myslam.dir/all
 
 # Build rule for subdir invocation for target.
@@ -893,15 +911,15 @@ src/CMakeFiles/myslam.dir/clean:
 # Target rules for target example/CMakeFiles/stereo_kitti.dir
 
 # All Build rule for target.
-example/CMakeFiles/stereo_kitti.dir/all:
+example/CMakeFiles/stereo_kitti.dir/all: src/CMakeFiles/myslam.dir/all
 	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/stereo_kitti.dir/build.make example/CMakeFiles/stereo_kitti.dir/depend
 	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/stereo_kitti.dir/build.make example/CMakeFiles/stereo_kitti.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=11,12 "Built target stereo_kitti"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=13,14 "Built target stereo_kitti"
 .PHONY : example/CMakeFiles/stereo_kitti.dir/all
 
 # Build rule for subdir invocation for target.
 example/CMakeFiles/stereo_kitti.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/sda4/Desktop/myslam/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/sda4/Desktop/myslam/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/stereo_kitti.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/sda4/Desktop/myslam/build/CMakeFiles 0
 .PHONY : example/CMakeFiles/stereo_kitti.dir/rule
@@ -914,6 +932,32 @@ stereo_kitti: example/CMakeFiles/stereo_kitti.dir/rule
 example/CMakeFiles/stereo_kitti.dir/clean:
 	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/stereo_kitti.dir/build.make example/CMakeFiles/stereo_kitti.dir/clean
 .PHONY : example/CMakeFiles/stereo_kitti.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/ORBfeature.dir
+
+# All Build rule for target.
+test/CMakeFiles/ORBfeature.dir/all:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ORBfeature.dir/build.make test/CMakeFiles/ORBfeature.dir/depend
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ORBfeature.dir/build.make test/CMakeFiles/ORBfeature.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=1,2 "Built target ORBfeature"
+.PHONY : test/CMakeFiles/ORBfeature.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/ORBfeature.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/sda4/Desktop/myslam/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/ORBfeature.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/sda4/Desktop/myslam/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/ORBfeature.dir/rule
+
+# Convenience name for target.
+ORBfeature: test/CMakeFiles/ORBfeature.dir/rule
+.PHONY : ORBfeature
+
+# clean rule for target.
+test/CMakeFiles/ORBfeature.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ORBfeature.dir/build.make test/CMakeFiles/ORBfeature.dir/clean
+.PHONY : test/CMakeFiles/ORBfeature.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
