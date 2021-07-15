@@ -1,7 +1,6 @@
-src/CMakeFiles/myslam.dir/FrontEnd.cpp.o: \
- /home/user/sda4/Desktop/myslam/src/FrontEnd.cpp \
- /usr/include/stdc-predef.h \
- /home/user/sda4/Desktop/myslam/include/FrontEnd.h \
+src/CMakeFiles/myslam.dir/viewer.cpp.o: \
+ /home/user/sda4/Desktop/myslam/src/viewer.cpp /usr/include/stdc-predef.h \
+ /home/user/sda4/Desktop/myslam/include/viewer.h \
  /home/user/sda4/Desktop/myslam/include/Include.h \
  /usr/include/c++/5/memory /usr/include/c++/5/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
@@ -572,13 +571,9 @@ src/CMakeFiles/myslam.dir/FrontEnd.cpp.o: \
  /usr/local/include/gflags/gflags_declare.h \
  /usr/local/include/gflags/gflags_gflags.h \
  /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
- /home/user/sda4/Desktop/myslam/include/Convert.h \
- /home/user/sda4/Desktop/myslam/include/Frame.h \
- /home/user/sda4/Desktop/myslam/include/camera.h \
  /home/user/sda4/Desktop/myslam/include/Map.h \
+ /home/user/sda4/Desktop/myslam/include/Frame.h \
  /home/user/sda4/Desktop/myslam/include/MapPoint.h \
- /home/user/sda4/Desktop/myslam/include/BackEnd.h \
- /home/user/sda4/Desktop/myslam/include/viewer.h \
  /usr/local/include/pangolin/pangolin.h \
  /usr/local/include/pangolin/platform.h \
  /usr/local/include/pangolin/config.h \

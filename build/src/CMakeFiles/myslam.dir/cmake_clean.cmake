@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../../lib/libmyslam.so"
   "CMakeFiles/myslam.dir/BackEnd.cpp.o"
   "CMakeFiles/myslam.dir/BackEnd.cpp.o.d"
+  "CMakeFiles/myslam.dir/Convert.cpp.o"
+  "CMakeFiles/myslam.dir/Convert.cpp.o.d"
   "CMakeFiles/myslam.dir/Frame.cpp.o"
   "CMakeFiles/myslam.dir/Frame.cpp.o.d"
   "CMakeFiles/myslam.dir/FrontEnd.cpp.o"
@@ -19,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/myslam.dir/config.cpp.o.d"
   "CMakeFiles/myslam.dir/dataset.cpp.o"
   "CMakeFiles/myslam.dir/dataset.cpp.o.d"
+  "CMakeFiles/myslam.dir/viewer.cpp.o"
+  "CMakeFiles/myslam.dir/viewer.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

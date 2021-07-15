@@ -195,6 +195,34 @@ src/CMakeFiles/myslam.dir/BackEnd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myslam.dir/BackEnd.cpp.s"
 	cd /home/user/sda4/Desktop/myslam/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/sda4/Desktop/myslam/src/BackEnd.cpp -o CMakeFiles/myslam.dir/BackEnd.cpp.s
 
+src/CMakeFiles/myslam.dir/Convert.cpp.o: src/CMakeFiles/myslam.dir/flags.make
+src/CMakeFiles/myslam.dir/Convert.cpp.o: ../src/Convert.cpp
+src/CMakeFiles/myslam.dir/Convert.cpp.o: src/CMakeFiles/myslam.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/myslam.dir/Convert.cpp.o"
+	cd /home/user/sda4/Desktop/myslam/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myslam.dir/Convert.cpp.o -MF CMakeFiles/myslam.dir/Convert.cpp.o.d -o CMakeFiles/myslam.dir/Convert.cpp.o -c /home/user/sda4/Desktop/myslam/src/Convert.cpp
+
+src/CMakeFiles/myslam.dir/Convert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myslam.dir/Convert.cpp.i"
+	cd /home/user/sda4/Desktop/myslam/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/sda4/Desktop/myslam/src/Convert.cpp > CMakeFiles/myslam.dir/Convert.cpp.i
+
+src/CMakeFiles/myslam.dir/Convert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myslam.dir/Convert.cpp.s"
+	cd /home/user/sda4/Desktop/myslam/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/sda4/Desktop/myslam/src/Convert.cpp -o CMakeFiles/myslam.dir/Convert.cpp.s
+
+src/CMakeFiles/myslam.dir/viewer.cpp.o: src/CMakeFiles/myslam.dir/flags.make
+src/CMakeFiles/myslam.dir/viewer.cpp.o: ../src/viewer.cpp
+src/CMakeFiles/myslam.dir/viewer.cpp.o: src/CMakeFiles/myslam.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/myslam.dir/viewer.cpp.o"
+	cd /home/user/sda4/Desktop/myslam/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myslam.dir/viewer.cpp.o -MF CMakeFiles/myslam.dir/viewer.cpp.o.d -o CMakeFiles/myslam.dir/viewer.cpp.o -c /home/user/sda4/Desktop/myslam/src/viewer.cpp
+
+src/CMakeFiles/myslam.dir/viewer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myslam.dir/viewer.cpp.i"
+	cd /home/user/sda4/Desktop/myslam/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/sda4/Desktop/myslam/src/viewer.cpp > CMakeFiles/myslam.dir/viewer.cpp.i
+
+src/CMakeFiles/myslam.dir/viewer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myslam.dir/viewer.cpp.s"
+	cd /home/user/sda4/Desktop/myslam/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/sda4/Desktop/myslam/src/viewer.cpp -o CMakeFiles/myslam.dir/viewer.cpp.s
+
 # Object files for target myslam
 myslam_OBJECTS = \
 "CMakeFiles/myslam.dir/System.cpp.o" \
@@ -205,7 +233,9 @@ myslam_OBJECTS = \
 "CMakeFiles/myslam.dir/Frame.cpp.o" \
 "CMakeFiles/myslam.dir/dataset.cpp.o" \
 "CMakeFiles/myslam.dir/FrontEnd.cpp.o" \
-"CMakeFiles/myslam.dir/BackEnd.cpp.o"
+"CMakeFiles/myslam.dir/BackEnd.cpp.o" \
+"CMakeFiles/myslam.dir/Convert.cpp.o" \
+"CMakeFiles/myslam.dir/viewer.cpp.o"
 
 # External object files for target myslam
 myslam_EXTERNAL_OBJECTS =
@@ -219,6 +249,8 @@ myslam_EXTERNAL_OBJECTS =
 ../lib/libmyslam.so: src/CMakeFiles/myslam.dir/dataset.cpp.o
 ../lib/libmyslam.so: src/CMakeFiles/myslam.dir/FrontEnd.cpp.o
 ../lib/libmyslam.so: src/CMakeFiles/myslam.dir/BackEnd.cpp.o
+../lib/libmyslam.so: src/CMakeFiles/myslam.dir/Convert.cpp.o
+../lib/libmyslam.so: src/CMakeFiles/myslam.dir/viewer.cpp.o
 ../lib/libmyslam.so: src/CMakeFiles/myslam.dir/build.make
 ../lib/libmyslam.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
 ../lib/libmyslam.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
@@ -299,7 +331,7 @@ myslam_EXTERNAL_OBJECTS =
 ../lib/libmyslam.so: /usr/lib/x86_64-linux-gnu/libtiff.so
 ../lib/libmyslam.so: /usr/local/lib/libgtest.a
 ../lib/libmyslam.so: src/CMakeFiles/myslam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library ../../lib/libmyslam.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/sda4/Desktop/myslam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library ../../lib/libmyslam.so"
 	cd /home/user/sda4/Desktop/myslam/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myslam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

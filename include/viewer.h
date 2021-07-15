@@ -1,19 +1,12 @@
-//
-// Created by gaoxiang on 19-5-4.
-//
-
+#pragma once
 #ifndef MYSLAM_VIEWER_H
 #define MYSLAM_VIEWER_H
 
+#include "Include.h"
+#include "Map.h"
 #include <thread>
 #include <pangolin/pangolin.h>
-
-#include "Include.h"
-#include "Frame.h"
-#include "Map.h"
-#include "MapPoint.h"
-#include "FrontEnd.h"
-#include "BackEnd.h"
+#include <opencv2/opencv.hpp>
 
 namespace myslam {
 
@@ -55,8 +48,8 @@ class Viewer {
     std::thread viewer_thread_;
     bool viewer_running_ = true;
 
-    std::unordered_map<unsigned long, Frame::Ptr> active_keyframes_;
-    std::unordered_map<unsigned long, MapPoint::Ptr> active_landmarks_;
+    std::vector<Frame::Ptr> active_keyframes_;
+    std::vector<MapPoint::Ptr> active_landmarks_;
     bool map_updated_ = false;
 
     std::mutex viewer_data_mutex_;

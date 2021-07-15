@@ -164,6 +164,30 @@ BackEnd.cpp.s:
 	cd /home/user/sda4/Desktop/myslam/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/BackEnd.cpp.s
 .PHONY : BackEnd.cpp.s
 
+Convert.o: Convert.cpp.o
+.PHONY : Convert.o
+
+# target to build an object file
+Convert.cpp.o:
+	cd /home/user/sda4/Desktop/myslam/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/Convert.cpp.o
+.PHONY : Convert.cpp.o
+
+Convert.i: Convert.cpp.i
+.PHONY : Convert.i
+
+# target to preprocess a source file
+Convert.cpp.i:
+	cd /home/user/sda4/Desktop/myslam/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/Convert.cpp.i
+.PHONY : Convert.cpp.i
+
+Convert.s: Convert.cpp.s
+.PHONY : Convert.s
+
+# target to generate assembly for a file
+Convert.cpp.s:
+	cd /home/user/sda4/Desktop/myslam/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/Convert.cpp.s
+.PHONY : Convert.cpp.s
+
 Frame.o: Frame.cpp.o
 .PHONY : Frame.o
 
@@ -356,6 +380,30 @@ dataset.cpp.s:
 	cd /home/user/sda4/Desktop/myslam/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/dataset.cpp.s
 .PHONY : dataset.cpp.s
 
+viewer.o: viewer.cpp.o
+.PHONY : viewer.o
+
+# target to build an object file
+viewer.cpp.o:
+	cd /home/user/sda4/Desktop/myslam/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/viewer.cpp.o
+.PHONY : viewer.cpp.o
+
+viewer.i: viewer.cpp.i
+.PHONY : viewer.i
+
+# target to preprocess a source file
+viewer.cpp.i:
+	cd /home/user/sda4/Desktop/myslam/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/viewer.cpp.i
+.PHONY : viewer.cpp.i
+
+viewer.s: viewer.cpp.s
+.PHONY : viewer.s
+
+# target to generate assembly for a file
+viewer.cpp.s:
+	cd /home/user/sda4/Desktop/myslam/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myslam.dir/build.make src/CMakeFiles/myslam.dir/viewer.cpp.s
+.PHONY : viewer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -369,6 +417,9 @@ help:
 	@echo "... BackEnd.o"
 	@echo "... BackEnd.i"
 	@echo "... BackEnd.s"
+	@echo "... Convert.o"
+	@echo "... Convert.i"
+	@echo "... Convert.s"
 	@echo "... Frame.o"
 	@echo "... Frame.i"
 	@echo "... Frame.s"
@@ -393,6 +444,9 @@ help:
 	@echo "... dataset.o"
 	@echo "... dataset.i"
 	@echo "... dataset.s"
+	@echo "... viewer.o"
+	@echo "... viewer.i"
+	@echo "... viewer.s"
 .PHONY : help
 
 

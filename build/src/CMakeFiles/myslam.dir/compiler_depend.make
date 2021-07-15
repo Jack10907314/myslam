@@ -655,8 +655,736 @@ src/CMakeFiles/myslam.dir/BackEnd.cpp.o: ../src/BackEnd.cpp \
   /usr/include/glog/vlog_is_on.h \
   ../include/Frame.h \
   ../include/camera.h \
+  ../include/FrontEnd.h \
+  ../include/Convert.h \
   ../include/Map.h \
-  ../include/FrontEnd.h
+  ../include/MapPoint.h \
+  ../include/viewer.h \
+  /usr/local/include/pangolin/pangolin.h \
+  /usr/local/include/pangolin/platform.h \
+  /usr/local/include/pangolin/config.h \
+  /usr/local/include/pangolin/utils/assert.h \
+  /usr/local/include/pangolin/utils/format_string.h \
+  /usr/local/include/pangolin/utils/log.h \
+  /usr/local/include/pangolin/gl/gl.h \
+  /usr/local/include/pangolin/display/viewport.h \
+  /usr/local/include/pangolin/gl/glinclude.h \
+  /usr/local/include/pangolin/gl/glplatform.h \
+  /usr/include/GL/glew.h \
+  /usr/include/GL/glu.h \
+  /usr/include/GL/gl.h \
+  /usr/local/include/pangolin/gl/glpangoglu.h \
+  /usr/local/include/pangolin/display/opengl_render_state.h \
+  /usr/local/include/pangolin/utils/simple_math.h \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/local/include/pangolin/image/image_io.h \
+  /usr/local/include/pangolin/image/typed_image.h \
+  /usr/local/include/pangolin/image/managed_image.h \
+  /usr/local/include/pangolin/image/image.h \
+  /usr/local/include/pangolin/image/memcpy.h \
+  /usr/local/include/pangolin/image/copy.h \
+  /usr/local/include/pangolin/image/pixel_format.h \
+  /usr/local/include/pangolin/utils/file_extension.h \
+  /usr/local/include/pangolin/gl/gl.hpp \
+  /usr/local/include/pangolin/gl/glpixformat.h \
+  /usr/local/include/pangolin/gl/glformattraits.h \
+  /usr/local/include/pangolin/display/display.h \
+  /usr/local/include/pangolin/handler/handler_enums.h \
+  /usr/local/include/pangolin/utils/params.h \
+  /usr/local/include/pangolin/utils/type_convert.h \
+  /usr/local/include/pangolin/compat/type_traits.h \
+  /usr/local/include/pangolin/display/window.h \
+  /usr/local/include/pangolin/gl/gldraw.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/pangolin/gl/glvbo.h \
+  /usr/local/include/pangolin/gl/glstate.h \
+  /usr/include/c++/5/stack \
+  /usr/include/c++/5/bits/stl_stack.h \
+  /usr/local/include/pangolin/gl/colour.h \
+  /usr/local/include/pangolin/display/view.h \
+  /usr/local/include/pangolin/display/attach.h \
+  /usr/local/include/pangolin/plot/plotter.h \
+  /usr/local/include/pangolin/gl/glfont.h \
+  /usr/local/include/pangolin/gl/gltext.h \
+  /usr/local/include/pangolin/gl/glchar.h \
+  /usr/include/c++/5/cstdarg \
+  /usr/local/include/pangolin/gl/glsl.h \
+  /usr/local/include/pangolin/utils/file_utils.h \
+  /usr/local/include/pangolin/handler/handler.h \
+  /usr/local/include/pangolin/plot/datalog.h \
+  /usr/local/include/pangolin/plot/range.h \
+  /usr/local/include/pangolin/var/varextra.h \
+  /usr/local/include/pangolin/var/var.h \
+  /usr/local/include/pangolin/var/varvalue.h \
+  /usr/local/include/pangolin/var/varvaluet.h \
+  /usr/local/include/pangolin/var/varvaluegeneric.h \
+  /usr/local/include/pangolin/var/varwrapper.h \
+  /usr/local/include/pangolin/var/varstate.h \
+  /usr/local/include/pangolin/display/widgets/widgets.h \
+  /usr/local/include/pangolin/video/video.h \
+  /usr/local/include/pangolin/utils/uri.h \
+  /usr/local/include/pangolin/video/video_exception.h \
+  /usr/local/include/pangolin/video/video_interface.h \
+  /usr/local/include/pangolin/utils/picojson.h \
+  /usr/include/c++/5/iterator \
+  /usr/include/c++/5/bits/stream_iterator.h \
+  /usr/local/include/pangolin/video/stream_info.h \
+  /usr/local/include/pangolin/video/video_output_interface.h \
+  /usr/local/include/pangolin/video/video_input.h \
+  /usr/local/include/pangolin/video/video_output.h
+
+src/CMakeFiles/myslam.dir/Convert.cpp.o: ../src/Convert.cpp \
+  /usr/include/stdc-predef.h \
+  ../include/Convert.h \
+  ../include/Include.h \
+  /usr/include/c++/5/memory \
+  /usr/include/c++/5/bits/stl_algobase.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h \
+  /usr/include/c++/5/bits/functexcept.h \
+  /usr/include/c++/5/bits/exception_defines.h \
+  /usr/include/c++/5/bits/cpp_type_traits.h \
+  /usr/include/c++/5/ext/type_traits.h \
+  /usr/include/c++/5/ext/numeric_traits.h \
+  /usr/include/c++/5/bits/stl_pair.h \
+  /usr/include/c++/5/bits/move.h \
+  /usr/include/c++/5/bits/concept_check.h \
+  /usr/include/c++/5/type_traits \
+  /usr/include/c++/5/bits/stl_iterator_base_types.h \
+  /usr/include/c++/5/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/5/debug/debug.h \
+  /usr/include/c++/5/bits/stl_iterator.h \
+  /usr/include/c++/5/bits/ptr_traits.h \
+  /usr/include/c++/5/bits/predefined_ops.h \
+  /usr/include/c++/5/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
+  /usr/include/c++/5/ext/new_allocator.h \
+  /usr/include/c++/5/new \
+  /usr/include/c++/5/exception \
+  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/5/bits/exception_ptr.h \
+  /usr/include/c++/5/bits/nested_exception.h \
+  /usr/include/c++/5/bits/memoryfwd.h \
+  /usr/include/c++/5/bits/stl_construct.h \
+  /usr/include/c++/5/ext/alloc_traits.h \
+  /usr/include/c++/5/bits/alloc_traits.h \
+  /usr/include/c++/5/bits/stl_uninitialized.h \
+  /usr/include/c++/5/bits/stl_tempbuf.h \
+  /usr/include/c++/5/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/5/typeinfo \
+  /usr/include/c++/5/bits/hash_bytes.h \
+  /usr/include/c++/5/iosfwd \
+  /usr/include/c++/5/bits/stringfwd.h \
+  /usr/include/c++/5/bits/postypes.h \
+  /usr/include/c++/5/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+  /usr/include/xlocale.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/5/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+  /usr/include/sched.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h \
+  /usr/include/c++/5/ext/concurrence.h \
+  /usr/include/c++/5/bits/stl_function.h \
+  /usr/include/c++/5/backward/binders.h \
+  /usr/include/c++/5/bits/uses_allocator.h \
+  /usr/include/c++/5/functional \
+  /usr/include/c++/5/tuple \
+  /usr/include/c++/5/utility \
+  /usr/include/c++/5/bits/stl_relops.h \
+  /usr/include/c++/5/initializer_list \
+  /usr/include/c++/5/array \
+  /usr/include/c++/5/stdexcept \
+  /usr/include/c++/5/string \
+  /usr/include/c++/5/bits/char_traits.h \
+  /usr/include/c++/5/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/c++/5/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h \
+  /usr/include/c++/5/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/5/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/5/bits/ostream_insert.h \
+  /usr/include/c++/5/bits/cxxabi_forced.h \
+  /usr/include/c++/5/bits/range_access.h \
+  /usr/include/c++/5/bits/basic_string.h \
+  /usr/include/c++/5/ext/string_conversions.h \
+  /usr/include/c++/5/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sigset.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/5/cstdio \
+  /usr/include/libio.h \
+  /usr/include/_G_config.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+  /usr/include/c++/5/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/c++/5/bits/functional_hash.h \
+  /usr/include/c++/5/bits/basic_string.tcc \
+  /usr/include/c++/5/bits/unique_ptr.h \
+  /usr/include/c++/5/bits/shared_ptr.h \
+  /usr/include/c++/5/bits/shared_ptr_base.h \
+  /usr/include/c++/5/bits/allocated_ptr.h \
+  /usr/include/c++/5/ext/aligned_buffer.h \
+  /usr/include/c++/5/bits/shared_ptr_atomic.h \
+  /usr/include/c++/5/bits/atomic_base.h \
+  /usr/include/c++/5/backward/auto_ptr.h \
+  /usr/include/c++/5/iostream \
+  /usr/include/c++/5/ostream \
+  /usr/include/c++/5/ios \
+  /usr/include/c++/5/bits/ios_base.h \
+  /usr/include/c++/5/bits/locale_classes.h \
+  /usr/include/c++/5/bits/locale_classes.tcc \
+  /usr/include/c++/5/system_error \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/error_constants.h \
+  /usr/include/c++/5/streambuf \
+  /usr/include/c++/5/bits/streambuf.tcc \
+  /usr/include/c++/5/bits/basic_ios.h \
+  /usr/include/c++/5/bits/locale_facets.h \
+  /usr/include/c++/5/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h \
+  /usr/include/c++/5/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h \
+  /usr/include/c++/5/bits/locale_facets.tcc \
+  /usr/include/c++/5/bits/basic_ios.tcc \
+  /usr/include/c++/5/bits/ostream.tcc \
+  /usr/include/c++/5/istream \
+  /usr/include/c++/5/bits/istream.tcc \
+  /usr/include/c++/5/mutex \
+  /usr/include/c++/5/chrono \
+  /usr/include/c++/5/ratio \
+  /usr/include/c++/5/limits \
+  /usr/include/c++/5/ctime \
+  /usr/include/c++/5/bits/parse_numbers.h \
+  /usr/include/c++/5/thread \
+  /usr/include/c++/5/vector \
+  /usr/include/c++/5/bits/stl_vector.h \
+  /usr/include/c++/5/bits/stl_bvector.h \
+  /usr/include/c++/5/bits/vector.tcc \
+  /usr/include/c++/5/set \
+  /usr/include/c++/5/bits/stl_tree.h \
+  /usr/include/c++/5/bits/stl_set.h \
+  /usr/include/c++/5/bits/stl_multiset.h \
+  /usr/include/c++/5/unordered_map \
+  /usr/include/c++/5/bits/hashtable.h \
+  /usr/include/c++/5/bits/hashtable_policy.h \
+  /usr/include/c++/5/bits/unordered_map.h \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/c++/5/complex \
+  /usr/include/c++/5/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+  /usr/include/x86_64-linux-gnu/bits/inf.h \
+  /usr/include/x86_64-linux-gnu/bits/nan.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+  /usr/include/c++/5/sstream \
+  /usr/include/c++/5/bits/sstream.tcc \
+  /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/omp.h \
+  /usr/include/c++/5/cstddef \
+  /usr/include/c++/5/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/5/cstring \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/string3.h \
+  /usr/include/c++/5/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/c++/5/algorithm \
+  /usr/include/c++/5/bits/stl_algo.h \
+  /usr/include/c++/5/bits/algorithmfwd.h \
+  /usr/include/c++/5/bits/stl_heap.h \
+  /usr/include/c++/5/random \
+  /usr/include/c++/5/bits/random.h \
+  /usr/include/c++/5/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/opt_random.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/x86intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/ammintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xtestintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mm3dnow.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fma4intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xopintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/pcommitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mwaitxintrin.h \
+  /usr/include/c++/5/bits/random.tcc \
+  /usr/include/c++/5/numeric \
+  /usr/include/c++/5/bits/stl_numeric.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/local/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/Geometry \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/SVD \
+  /usr/local/include/eigen3/Eigen/QR \
+  /usr/local/include/eigen3/Eigen/Cholesky \
+  /usr/local/include/eigen3/Eigen/Jacobi \
+  /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/local/include/eigen3/Eigen/Householder \
+  /usr/local/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/local/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/local/include/eigen3/Eigen/LU \
+  /usr/local/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/local/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h \
+  /usr/local/include/sophus/se3.hpp \
+  /usr/local/include/sophus/so3.hpp \
+  /usr/local/include/sophus/rotation_matrix.hpp \
+  /usr/include/eigen3/Eigen/Dense \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/Cholesky \
+  /usr/include/eigen3/Eigen/QR \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/Eigenvalues \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/Jacobi \
+  /usr/include/eigen3/Eigen/Householder \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/local/include/sophus/types.hpp \
+  /usr/local/include/sophus/common.hpp \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/local/include/sophus/formatstring.hpp \
+  /usr/local/include/sophus/so2.hpp \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/sophus/so3.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/hal/interface.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_dispatch.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/version.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/base.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv_modules.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ptr.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/neon_utils.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/vsx_utils.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/traits.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/matx.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/saturate.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/fast_math.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp \
+  /usr/include/c++/5/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/bufferpool.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/persistence.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/operations.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/utility.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/optim.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ovx.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/features2d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/miniflann.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/config.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/affine.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d/calib3d_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/flann_base.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+  /usr/include/c++/5/map \
+  /usr/include/c++/5/bits/stl_map.h \
+  /usr/include/c++/5/bits/stl_multimap.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/all_indices.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dynamic_bitset.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/composite_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/linear_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/hierarchical_clustering_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_table.h \
+  /usr/include/c++/5/iomanip \
+  /usr/include/c++/5/locale \
+  /usr/include/c++/5/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/5/bits/codecvt.h \
+  /usr/include/c++/5/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/5/bits/locale_conv.h \
+  /usr/include/c++/5/bits/stringfwd.h \
+  /usr/include/c++/5/bits/allocator.h \
+  /usr/include/c++/5/bits/codecvt.h \
+  /usr/include/c++/5/bits/unique_ptr.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/autotuned_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/ground_truth.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/index_testing.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/timer.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/sampling.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/highgui_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/imgproc_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/types_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs/imgcodecs_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio/videoio_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/ml.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/detection_based_tracker.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/objdetect_c.h \
+  /usr/include/c++/5/deque \
+  /usr/include/c++/5/bits/stl_deque.h \
+  /usr/include/c++/5/bits/deque.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo/photo_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/emdL1.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_transformer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/hist_cost.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_distance.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda_types.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/cuda.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/motion_estimators.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp \
+  /usr/include/c++/5/list \
+  /usr/include/c++/5/bits/stl_list.h \
+  /usr/include/c++/5/bits/list.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/5/queue \
+  /usr/include/c++/5/bits/stl_queue.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/exposure_compensate.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/seam_finders.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/blenders.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres/optical_flow.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/background_segm.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/stabilizer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/global_motion.hpp \
+  /usr/include/c++/5/fstream \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h \
+  /usr/include/c++/5/bits/fstream.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/optical_flow.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/outlier_rejection.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_stabilizing.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/frame_source.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/log.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/inpainting.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/deblurring.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/ring_buffer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/types.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/widgets.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/viz3d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/vizcore.hpp \
+  /usr/include/glog/logging.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/getopt.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/inttypes.h \
+  /usr/local/include/gflags/gflags.h \
+  /usr/local/include/gflags/gflags_declare.h \
+  /usr/local/include/gflags/gflags_gflags.h \
+  /usr/include/glog/log_severity.h \
+  /usr/include/glog/vlog_is_on.h
 
 src/CMakeFiles/myslam.dir/Frame.cpp.o: ../src/Frame.cpp \
   /usr/include/stdc-predef.h \
@@ -1309,7 +2037,8 @@ src/CMakeFiles/myslam.dir/Frame.cpp.o: ../src/Frame.cpp \
   /usr/local/include/gflags/gflags_declare.h \
   /usr/local/include/gflags/gflags_gflags.h \
   /usr/include/glog/log_severity.h \
-  /usr/include/glog/vlog_is_on.h
+  /usr/include/glog/vlog_is_on.h \
+  ../include/MapPoint.h
 
 src/CMakeFiles/myslam.dir/FrontEnd.cpp.o: ../src/FrontEnd.cpp \
   /usr/include/stdc-predef.h \
@@ -1963,16 +2692,1394 @@ src/CMakeFiles/myslam.dir/FrontEnd.cpp.o: ../src/FrontEnd.cpp \
   /usr/local/include/gflags/gflags_gflags.h \
   /usr/include/glog/log_severity.h \
   /usr/include/glog/vlog_is_on.h \
+  ../include/Convert.h \
   ../include/Frame.h \
   ../include/camera.h \
   ../include/Map.h \
-  ../include/BackEnd.h
+  ../include/MapPoint.h \
+  ../include/BackEnd.h \
+  ../include/viewer.h \
+  /usr/local/include/pangolin/pangolin.h \
+  /usr/local/include/pangolin/platform.h \
+  /usr/local/include/pangolin/config.h \
+  /usr/local/include/pangolin/utils/assert.h \
+  /usr/local/include/pangolin/utils/format_string.h \
+  /usr/local/include/pangolin/utils/log.h \
+  /usr/local/include/pangolin/gl/gl.h \
+  /usr/local/include/pangolin/display/viewport.h \
+  /usr/local/include/pangolin/gl/glinclude.h \
+  /usr/local/include/pangolin/gl/glplatform.h \
+  /usr/include/GL/glew.h \
+  /usr/include/GL/glu.h \
+  /usr/include/GL/gl.h \
+  /usr/local/include/pangolin/gl/glpangoglu.h \
+  /usr/local/include/pangolin/display/opengl_render_state.h \
+  /usr/local/include/pangolin/utils/simple_math.h \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/local/include/pangolin/image/image_io.h \
+  /usr/local/include/pangolin/image/typed_image.h \
+  /usr/local/include/pangolin/image/managed_image.h \
+  /usr/local/include/pangolin/image/image.h \
+  /usr/local/include/pangolin/image/memcpy.h \
+  /usr/local/include/pangolin/image/copy.h \
+  /usr/local/include/pangolin/image/pixel_format.h \
+  /usr/local/include/pangolin/utils/file_extension.h \
+  /usr/local/include/pangolin/gl/gl.hpp \
+  /usr/local/include/pangolin/gl/glpixformat.h \
+  /usr/local/include/pangolin/gl/glformattraits.h \
+  /usr/local/include/pangolin/display/display.h \
+  /usr/local/include/pangolin/handler/handler_enums.h \
+  /usr/local/include/pangolin/utils/params.h \
+  /usr/local/include/pangolin/utils/type_convert.h \
+  /usr/local/include/pangolin/compat/type_traits.h \
+  /usr/local/include/pangolin/display/window.h \
+  /usr/local/include/pangolin/gl/gldraw.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/pangolin/gl/glvbo.h \
+  /usr/local/include/pangolin/gl/glstate.h \
+  /usr/include/c++/5/stack \
+  /usr/include/c++/5/bits/stl_stack.h \
+  /usr/local/include/pangolin/gl/colour.h \
+  /usr/local/include/pangolin/display/view.h \
+  /usr/local/include/pangolin/display/attach.h \
+  /usr/local/include/pangolin/plot/plotter.h \
+  /usr/local/include/pangolin/gl/glfont.h \
+  /usr/local/include/pangolin/gl/gltext.h \
+  /usr/local/include/pangolin/gl/glchar.h \
+  /usr/include/c++/5/cstdarg \
+  /usr/local/include/pangolin/gl/glsl.h \
+  /usr/local/include/pangolin/utils/file_utils.h \
+  /usr/local/include/pangolin/handler/handler.h \
+  /usr/local/include/pangolin/plot/datalog.h \
+  /usr/local/include/pangolin/plot/range.h \
+  /usr/local/include/pangolin/var/varextra.h \
+  /usr/local/include/pangolin/var/var.h \
+  /usr/local/include/pangolin/var/varvalue.h \
+  /usr/local/include/pangolin/var/varvaluet.h \
+  /usr/local/include/pangolin/var/varvaluegeneric.h \
+  /usr/local/include/pangolin/var/varwrapper.h \
+  /usr/local/include/pangolin/var/varstate.h \
+  /usr/local/include/pangolin/display/widgets/widgets.h \
+  /usr/local/include/pangolin/video/video.h \
+  /usr/local/include/pangolin/utils/uri.h \
+  /usr/local/include/pangolin/video/video_exception.h \
+  /usr/local/include/pangolin/video/video_interface.h \
+  /usr/local/include/pangolin/utils/picojson.h \
+  /usr/include/c++/5/iterator \
+  /usr/include/c++/5/bits/stream_iterator.h \
+  /usr/local/include/pangolin/video/stream_info.h \
+  /usr/local/include/pangolin/video/video_output_interface.h \
+  /usr/local/include/pangolin/video/video_input.h \
+  /usr/local/include/pangolin/video/video_output.h
 
 src/CMakeFiles/myslam.dir/Map.cpp.o: ../src/Map.cpp \
-  /usr/include/stdc-predef.h
+  /usr/include/stdc-predef.h \
+  ../include/Map.h \
+  ../include/Include.h \
+  /usr/include/c++/5/memory \
+  /usr/include/c++/5/bits/stl_algobase.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h \
+  /usr/include/c++/5/bits/functexcept.h \
+  /usr/include/c++/5/bits/exception_defines.h \
+  /usr/include/c++/5/bits/cpp_type_traits.h \
+  /usr/include/c++/5/ext/type_traits.h \
+  /usr/include/c++/5/ext/numeric_traits.h \
+  /usr/include/c++/5/bits/stl_pair.h \
+  /usr/include/c++/5/bits/move.h \
+  /usr/include/c++/5/bits/concept_check.h \
+  /usr/include/c++/5/type_traits \
+  /usr/include/c++/5/bits/stl_iterator_base_types.h \
+  /usr/include/c++/5/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/5/debug/debug.h \
+  /usr/include/c++/5/bits/stl_iterator.h \
+  /usr/include/c++/5/bits/ptr_traits.h \
+  /usr/include/c++/5/bits/predefined_ops.h \
+  /usr/include/c++/5/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
+  /usr/include/c++/5/ext/new_allocator.h \
+  /usr/include/c++/5/new \
+  /usr/include/c++/5/exception \
+  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/5/bits/exception_ptr.h \
+  /usr/include/c++/5/bits/nested_exception.h \
+  /usr/include/c++/5/bits/memoryfwd.h \
+  /usr/include/c++/5/bits/stl_construct.h \
+  /usr/include/c++/5/ext/alloc_traits.h \
+  /usr/include/c++/5/bits/alloc_traits.h \
+  /usr/include/c++/5/bits/stl_uninitialized.h \
+  /usr/include/c++/5/bits/stl_tempbuf.h \
+  /usr/include/c++/5/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/5/typeinfo \
+  /usr/include/c++/5/bits/hash_bytes.h \
+  /usr/include/c++/5/iosfwd \
+  /usr/include/c++/5/bits/stringfwd.h \
+  /usr/include/c++/5/bits/postypes.h \
+  /usr/include/c++/5/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+  /usr/include/xlocale.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/5/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+  /usr/include/sched.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h \
+  /usr/include/c++/5/ext/concurrence.h \
+  /usr/include/c++/5/bits/stl_function.h \
+  /usr/include/c++/5/backward/binders.h \
+  /usr/include/c++/5/bits/uses_allocator.h \
+  /usr/include/c++/5/functional \
+  /usr/include/c++/5/tuple \
+  /usr/include/c++/5/utility \
+  /usr/include/c++/5/bits/stl_relops.h \
+  /usr/include/c++/5/initializer_list \
+  /usr/include/c++/5/array \
+  /usr/include/c++/5/stdexcept \
+  /usr/include/c++/5/string \
+  /usr/include/c++/5/bits/char_traits.h \
+  /usr/include/c++/5/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/c++/5/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h \
+  /usr/include/c++/5/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/5/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/5/bits/ostream_insert.h \
+  /usr/include/c++/5/bits/cxxabi_forced.h \
+  /usr/include/c++/5/bits/range_access.h \
+  /usr/include/c++/5/bits/basic_string.h \
+  /usr/include/c++/5/ext/string_conversions.h \
+  /usr/include/c++/5/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sigset.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/5/cstdio \
+  /usr/include/libio.h \
+  /usr/include/_G_config.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+  /usr/include/c++/5/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/c++/5/bits/functional_hash.h \
+  /usr/include/c++/5/bits/basic_string.tcc \
+  /usr/include/c++/5/bits/unique_ptr.h \
+  /usr/include/c++/5/bits/shared_ptr.h \
+  /usr/include/c++/5/bits/shared_ptr_base.h \
+  /usr/include/c++/5/bits/allocated_ptr.h \
+  /usr/include/c++/5/ext/aligned_buffer.h \
+  /usr/include/c++/5/bits/shared_ptr_atomic.h \
+  /usr/include/c++/5/bits/atomic_base.h \
+  /usr/include/c++/5/backward/auto_ptr.h \
+  /usr/include/c++/5/iostream \
+  /usr/include/c++/5/ostream \
+  /usr/include/c++/5/ios \
+  /usr/include/c++/5/bits/ios_base.h \
+  /usr/include/c++/5/bits/locale_classes.h \
+  /usr/include/c++/5/bits/locale_classes.tcc \
+  /usr/include/c++/5/system_error \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/error_constants.h \
+  /usr/include/c++/5/streambuf \
+  /usr/include/c++/5/bits/streambuf.tcc \
+  /usr/include/c++/5/bits/basic_ios.h \
+  /usr/include/c++/5/bits/locale_facets.h \
+  /usr/include/c++/5/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h \
+  /usr/include/c++/5/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h \
+  /usr/include/c++/5/bits/locale_facets.tcc \
+  /usr/include/c++/5/bits/basic_ios.tcc \
+  /usr/include/c++/5/bits/ostream.tcc \
+  /usr/include/c++/5/istream \
+  /usr/include/c++/5/bits/istream.tcc \
+  /usr/include/c++/5/mutex \
+  /usr/include/c++/5/chrono \
+  /usr/include/c++/5/ratio \
+  /usr/include/c++/5/limits \
+  /usr/include/c++/5/ctime \
+  /usr/include/c++/5/bits/parse_numbers.h \
+  /usr/include/c++/5/thread \
+  /usr/include/c++/5/vector \
+  /usr/include/c++/5/bits/stl_vector.h \
+  /usr/include/c++/5/bits/stl_bvector.h \
+  /usr/include/c++/5/bits/vector.tcc \
+  /usr/include/c++/5/set \
+  /usr/include/c++/5/bits/stl_tree.h \
+  /usr/include/c++/5/bits/stl_set.h \
+  /usr/include/c++/5/bits/stl_multiset.h \
+  /usr/include/c++/5/unordered_map \
+  /usr/include/c++/5/bits/hashtable.h \
+  /usr/include/c++/5/bits/hashtable_policy.h \
+  /usr/include/c++/5/bits/unordered_map.h \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/c++/5/complex \
+  /usr/include/c++/5/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+  /usr/include/x86_64-linux-gnu/bits/inf.h \
+  /usr/include/x86_64-linux-gnu/bits/nan.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+  /usr/include/c++/5/sstream \
+  /usr/include/c++/5/bits/sstream.tcc \
+  /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/omp.h \
+  /usr/include/c++/5/cstddef \
+  /usr/include/c++/5/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/5/cstring \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/string3.h \
+  /usr/include/c++/5/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/c++/5/algorithm \
+  /usr/include/c++/5/bits/stl_algo.h \
+  /usr/include/c++/5/bits/algorithmfwd.h \
+  /usr/include/c++/5/bits/stl_heap.h \
+  /usr/include/c++/5/random \
+  /usr/include/c++/5/bits/random.h \
+  /usr/include/c++/5/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/opt_random.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/x86intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/ammintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xtestintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mm3dnow.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fma4intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xopintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/pcommitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mwaitxintrin.h \
+  /usr/include/c++/5/bits/random.tcc \
+  /usr/include/c++/5/numeric \
+  /usr/include/c++/5/bits/stl_numeric.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/local/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/Geometry \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/SVD \
+  /usr/local/include/eigen3/Eigen/QR \
+  /usr/local/include/eigen3/Eigen/Cholesky \
+  /usr/local/include/eigen3/Eigen/Jacobi \
+  /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/local/include/eigen3/Eigen/Householder \
+  /usr/local/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/local/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/local/include/eigen3/Eigen/LU \
+  /usr/local/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/local/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h \
+  /usr/local/include/sophus/se3.hpp \
+  /usr/local/include/sophus/so3.hpp \
+  /usr/local/include/sophus/rotation_matrix.hpp \
+  /usr/include/eigen3/Eigen/Dense \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/Cholesky \
+  /usr/include/eigen3/Eigen/QR \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/Eigenvalues \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/Jacobi \
+  /usr/include/eigen3/Eigen/Householder \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/local/include/sophus/types.hpp \
+  /usr/local/include/sophus/common.hpp \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/local/include/sophus/formatstring.hpp \
+  /usr/local/include/sophus/so2.hpp \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/sophus/so3.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/hal/interface.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_dispatch.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/version.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/base.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv_modules.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ptr.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/neon_utils.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/vsx_utils.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/traits.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/matx.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/saturate.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/fast_math.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp \
+  /usr/include/c++/5/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/bufferpool.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/persistence.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/operations.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/utility.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/optim.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ovx.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/features2d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/miniflann.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/config.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/affine.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d/calib3d_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/flann_base.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+  /usr/include/c++/5/map \
+  /usr/include/c++/5/bits/stl_map.h \
+  /usr/include/c++/5/bits/stl_multimap.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/all_indices.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dynamic_bitset.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/composite_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/linear_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/hierarchical_clustering_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_table.h \
+  /usr/include/c++/5/iomanip \
+  /usr/include/c++/5/locale \
+  /usr/include/c++/5/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/5/bits/codecvt.h \
+  /usr/include/c++/5/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/5/bits/locale_conv.h \
+  /usr/include/c++/5/bits/stringfwd.h \
+  /usr/include/c++/5/bits/allocator.h \
+  /usr/include/c++/5/bits/codecvt.h \
+  /usr/include/c++/5/bits/unique_ptr.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/autotuned_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/ground_truth.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/index_testing.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/timer.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/sampling.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/highgui_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/imgproc_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/types_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs/imgcodecs_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio/videoio_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/ml.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/detection_based_tracker.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/objdetect_c.h \
+  /usr/include/c++/5/deque \
+  /usr/include/c++/5/bits/stl_deque.h \
+  /usr/include/c++/5/bits/deque.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo/photo_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/emdL1.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_transformer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/hist_cost.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_distance.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda_types.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/cuda.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/motion_estimators.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp \
+  /usr/include/c++/5/list \
+  /usr/include/c++/5/bits/stl_list.h \
+  /usr/include/c++/5/bits/list.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/5/queue \
+  /usr/include/c++/5/bits/stl_queue.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/exposure_compensate.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/seam_finders.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/blenders.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres/optical_flow.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/background_segm.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/stabilizer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/global_motion.hpp \
+  /usr/include/c++/5/fstream \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h \
+  /usr/include/c++/5/bits/fstream.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/optical_flow.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/outlier_rejection.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_stabilizing.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/frame_source.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/log.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/inpainting.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/deblurring.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/ring_buffer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/types.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/widgets.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/viz3d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/vizcore.hpp \
+  /usr/include/glog/logging.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/getopt.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/inttypes.h \
+  /usr/local/include/gflags/gflags.h \
+  /usr/local/include/gflags/gflags_declare.h \
+  /usr/local/include/gflags/gflags_gflags.h \
+  /usr/include/glog/log_severity.h \
+  /usr/include/glog/vlog_is_on.h \
+  ../include/Frame.h \
+  ../include/MapPoint.h
 
 src/CMakeFiles/myslam.dir/MapPoint.cpp.o: ../src/MapPoint.cpp \
-  /usr/include/stdc-predef.h
+  /usr/include/stdc-predef.h \
+  ../include/MapPoint.h \
+  ../include/Include.h \
+  /usr/include/c++/5/memory \
+  /usr/include/c++/5/bits/stl_algobase.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h \
+  /usr/include/c++/5/bits/functexcept.h \
+  /usr/include/c++/5/bits/exception_defines.h \
+  /usr/include/c++/5/bits/cpp_type_traits.h \
+  /usr/include/c++/5/ext/type_traits.h \
+  /usr/include/c++/5/ext/numeric_traits.h \
+  /usr/include/c++/5/bits/stl_pair.h \
+  /usr/include/c++/5/bits/move.h \
+  /usr/include/c++/5/bits/concept_check.h \
+  /usr/include/c++/5/type_traits \
+  /usr/include/c++/5/bits/stl_iterator_base_types.h \
+  /usr/include/c++/5/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/5/debug/debug.h \
+  /usr/include/c++/5/bits/stl_iterator.h \
+  /usr/include/c++/5/bits/ptr_traits.h \
+  /usr/include/c++/5/bits/predefined_ops.h \
+  /usr/include/c++/5/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
+  /usr/include/c++/5/ext/new_allocator.h \
+  /usr/include/c++/5/new \
+  /usr/include/c++/5/exception \
+  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/5/bits/exception_ptr.h \
+  /usr/include/c++/5/bits/nested_exception.h \
+  /usr/include/c++/5/bits/memoryfwd.h \
+  /usr/include/c++/5/bits/stl_construct.h \
+  /usr/include/c++/5/ext/alloc_traits.h \
+  /usr/include/c++/5/bits/alloc_traits.h \
+  /usr/include/c++/5/bits/stl_uninitialized.h \
+  /usr/include/c++/5/bits/stl_tempbuf.h \
+  /usr/include/c++/5/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/5/typeinfo \
+  /usr/include/c++/5/bits/hash_bytes.h \
+  /usr/include/c++/5/iosfwd \
+  /usr/include/c++/5/bits/stringfwd.h \
+  /usr/include/c++/5/bits/postypes.h \
+  /usr/include/c++/5/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+  /usr/include/xlocale.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/5/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+  /usr/include/sched.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h \
+  /usr/include/c++/5/ext/concurrence.h \
+  /usr/include/c++/5/bits/stl_function.h \
+  /usr/include/c++/5/backward/binders.h \
+  /usr/include/c++/5/bits/uses_allocator.h \
+  /usr/include/c++/5/functional \
+  /usr/include/c++/5/tuple \
+  /usr/include/c++/5/utility \
+  /usr/include/c++/5/bits/stl_relops.h \
+  /usr/include/c++/5/initializer_list \
+  /usr/include/c++/5/array \
+  /usr/include/c++/5/stdexcept \
+  /usr/include/c++/5/string \
+  /usr/include/c++/5/bits/char_traits.h \
+  /usr/include/c++/5/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/c++/5/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h \
+  /usr/include/c++/5/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/5/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/5/bits/ostream_insert.h \
+  /usr/include/c++/5/bits/cxxabi_forced.h \
+  /usr/include/c++/5/bits/range_access.h \
+  /usr/include/c++/5/bits/basic_string.h \
+  /usr/include/c++/5/ext/string_conversions.h \
+  /usr/include/c++/5/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sigset.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/5/cstdio \
+  /usr/include/libio.h \
+  /usr/include/_G_config.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+  /usr/include/c++/5/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/c++/5/bits/functional_hash.h \
+  /usr/include/c++/5/bits/basic_string.tcc \
+  /usr/include/c++/5/bits/unique_ptr.h \
+  /usr/include/c++/5/bits/shared_ptr.h \
+  /usr/include/c++/5/bits/shared_ptr_base.h \
+  /usr/include/c++/5/bits/allocated_ptr.h \
+  /usr/include/c++/5/ext/aligned_buffer.h \
+  /usr/include/c++/5/bits/shared_ptr_atomic.h \
+  /usr/include/c++/5/bits/atomic_base.h \
+  /usr/include/c++/5/backward/auto_ptr.h \
+  /usr/include/c++/5/iostream \
+  /usr/include/c++/5/ostream \
+  /usr/include/c++/5/ios \
+  /usr/include/c++/5/bits/ios_base.h \
+  /usr/include/c++/5/bits/locale_classes.h \
+  /usr/include/c++/5/bits/locale_classes.tcc \
+  /usr/include/c++/5/system_error \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/error_constants.h \
+  /usr/include/c++/5/streambuf \
+  /usr/include/c++/5/bits/streambuf.tcc \
+  /usr/include/c++/5/bits/basic_ios.h \
+  /usr/include/c++/5/bits/locale_facets.h \
+  /usr/include/c++/5/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h \
+  /usr/include/c++/5/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h \
+  /usr/include/c++/5/bits/locale_facets.tcc \
+  /usr/include/c++/5/bits/basic_ios.tcc \
+  /usr/include/c++/5/bits/ostream.tcc \
+  /usr/include/c++/5/istream \
+  /usr/include/c++/5/bits/istream.tcc \
+  /usr/include/c++/5/mutex \
+  /usr/include/c++/5/chrono \
+  /usr/include/c++/5/ratio \
+  /usr/include/c++/5/limits \
+  /usr/include/c++/5/ctime \
+  /usr/include/c++/5/bits/parse_numbers.h \
+  /usr/include/c++/5/thread \
+  /usr/include/c++/5/vector \
+  /usr/include/c++/5/bits/stl_vector.h \
+  /usr/include/c++/5/bits/stl_bvector.h \
+  /usr/include/c++/5/bits/vector.tcc \
+  /usr/include/c++/5/set \
+  /usr/include/c++/5/bits/stl_tree.h \
+  /usr/include/c++/5/bits/stl_set.h \
+  /usr/include/c++/5/bits/stl_multiset.h \
+  /usr/include/c++/5/unordered_map \
+  /usr/include/c++/5/bits/hashtable.h \
+  /usr/include/c++/5/bits/hashtable_policy.h \
+  /usr/include/c++/5/bits/unordered_map.h \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/c++/5/complex \
+  /usr/include/c++/5/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+  /usr/include/x86_64-linux-gnu/bits/inf.h \
+  /usr/include/x86_64-linux-gnu/bits/nan.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+  /usr/include/c++/5/sstream \
+  /usr/include/c++/5/bits/sstream.tcc \
+  /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/omp.h \
+  /usr/include/c++/5/cstddef \
+  /usr/include/c++/5/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/5/cstring \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/string3.h \
+  /usr/include/c++/5/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/c++/5/algorithm \
+  /usr/include/c++/5/bits/stl_algo.h \
+  /usr/include/c++/5/bits/algorithmfwd.h \
+  /usr/include/c++/5/bits/stl_heap.h \
+  /usr/include/c++/5/random \
+  /usr/include/c++/5/bits/random.h \
+  /usr/include/c++/5/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/opt_random.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/x86intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/ammintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xtestintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mm3dnow.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fma4intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xopintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/pcommitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mwaitxintrin.h \
+  /usr/include/c++/5/bits/random.tcc \
+  /usr/include/c++/5/numeric \
+  /usr/include/c++/5/bits/stl_numeric.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/local/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/Geometry \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/SVD \
+  /usr/local/include/eigen3/Eigen/QR \
+  /usr/local/include/eigen3/Eigen/Cholesky \
+  /usr/local/include/eigen3/Eigen/Jacobi \
+  /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/local/include/eigen3/Eigen/Householder \
+  /usr/local/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/local/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/local/include/eigen3/Eigen/LU \
+  /usr/local/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/local/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h \
+  /usr/local/include/sophus/se3.hpp \
+  /usr/local/include/sophus/so3.hpp \
+  /usr/local/include/sophus/rotation_matrix.hpp \
+  /usr/include/eigen3/Eigen/Dense \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/Cholesky \
+  /usr/include/eigen3/Eigen/QR \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/Eigenvalues \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/Jacobi \
+  /usr/include/eigen3/Eigen/Householder \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/local/include/sophus/types.hpp \
+  /usr/local/include/sophus/common.hpp \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/local/include/sophus/formatstring.hpp \
+  /usr/local/include/sophus/so2.hpp \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/sophus/so3.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/hal/interface.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_dispatch.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/version.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/base.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv_modules.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ptr.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/neon_utils.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/vsx_utils.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/traits.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/matx.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/saturate.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/fast_math.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp \
+  /usr/include/c++/5/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/bufferpool.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/persistence.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/operations.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/utility.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/optim.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ovx.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/features2d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/miniflann.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/config.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/affine.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d/calib3d_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/flann_base.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+  /usr/include/c++/5/map \
+  /usr/include/c++/5/bits/stl_map.h \
+  /usr/include/c++/5/bits/stl_multimap.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/all_indices.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dynamic_bitset.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/composite_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/linear_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/hierarchical_clustering_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_table.h \
+  /usr/include/c++/5/iomanip \
+  /usr/include/c++/5/locale \
+  /usr/include/c++/5/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/5/bits/codecvt.h \
+  /usr/include/c++/5/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/5/bits/locale_conv.h \
+  /usr/include/c++/5/bits/stringfwd.h \
+  /usr/include/c++/5/bits/allocator.h \
+  /usr/include/c++/5/bits/codecvt.h \
+  /usr/include/c++/5/bits/unique_ptr.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/autotuned_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/ground_truth.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/index_testing.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/timer.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/sampling.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/highgui_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/imgproc_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/types_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs/imgcodecs_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio/videoio_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/ml.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/detection_based_tracker.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/objdetect_c.h \
+  /usr/include/c++/5/deque \
+  /usr/include/c++/5/bits/stl_deque.h \
+  /usr/include/c++/5/bits/deque.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo/photo_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/emdL1.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_transformer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/hist_cost.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_distance.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda_types.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/cuda.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/motion_estimators.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp \
+  /usr/include/c++/5/list \
+  /usr/include/c++/5/bits/stl_list.h \
+  /usr/include/c++/5/bits/list.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/5/queue \
+  /usr/include/c++/5/bits/stl_queue.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/exposure_compensate.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/seam_finders.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/blenders.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres/optical_flow.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/background_segm.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/stabilizer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/global_motion.hpp \
+  /usr/include/c++/5/fstream \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h \
+  /usr/include/c++/5/bits/fstream.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/optical_flow.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/outlier_rejection.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_stabilizing.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/frame_source.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/log.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/inpainting.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/deblurring.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/ring_buffer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/types.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/widgets.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/viz3d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/vizcore.hpp \
+  /usr/include/glog/logging.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/getopt.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/inttypes.h \
+  /usr/local/include/gflags/gflags.h \
+  /usr/local/include/gflags/gflags_declare.h \
+  /usr/local/include/gflags/gflags_gflags.h \
+  /usr/include/glog/log_severity.h \
+  /usr/include/glog/vlog_is_on.h \
+  ../include/Frame.h
 
 src/CMakeFiles/myslam.dir/System.cpp.o: ../src/System.cpp \
   /usr/include/stdc-predef.h \
@@ -2628,10 +4735,85 @@ src/CMakeFiles/myslam.dir/System.cpp.o: ../src/System.cpp \
   /usr/include/glog/vlog_is_on.h \
   ../include/config.h \
   ../include/FrontEnd.h \
+  ../include/Convert.h \
   ../include/Frame.h \
   ../include/camera.h \
   ../include/Map.h \
+  ../include/MapPoint.h \
   ../include/BackEnd.h \
+  ../include/viewer.h \
+  /usr/local/include/pangolin/pangolin.h \
+  /usr/local/include/pangolin/platform.h \
+  /usr/local/include/pangolin/config.h \
+  /usr/local/include/pangolin/utils/assert.h \
+  /usr/local/include/pangolin/utils/format_string.h \
+  /usr/local/include/pangolin/utils/log.h \
+  /usr/local/include/pangolin/gl/gl.h \
+  /usr/local/include/pangolin/display/viewport.h \
+  /usr/local/include/pangolin/gl/glinclude.h \
+  /usr/local/include/pangolin/gl/glplatform.h \
+  /usr/include/GL/glew.h \
+  /usr/include/GL/glu.h \
+  /usr/include/GL/gl.h \
+  /usr/local/include/pangolin/gl/glpangoglu.h \
+  /usr/local/include/pangolin/display/opengl_render_state.h \
+  /usr/local/include/pangolin/utils/simple_math.h \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/local/include/pangolin/image/image_io.h \
+  /usr/local/include/pangolin/image/typed_image.h \
+  /usr/local/include/pangolin/image/managed_image.h \
+  /usr/local/include/pangolin/image/image.h \
+  /usr/local/include/pangolin/image/memcpy.h \
+  /usr/local/include/pangolin/image/copy.h \
+  /usr/local/include/pangolin/image/pixel_format.h \
+  /usr/local/include/pangolin/utils/file_extension.h \
+  /usr/local/include/pangolin/gl/gl.hpp \
+  /usr/local/include/pangolin/gl/glpixformat.h \
+  /usr/local/include/pangolin/gl/glformattraits.h \
+  /usr/local/include/pangolin/display/display.h \
+  /usr/local/include/pangolin/handler/handler_enums.h \
+  /usr/local/include/pangolin/utils/params.h \
+  /usr/local/include/pangolin/utils/type_convert.h \
+  /usr/local/include/pangolin/compat/type_traits.h \
+  /usr/local/include/pangolin/display/window.h \
+  /usr/local/include/pangolin/gl/gldraw.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/pangolin/gl/glvbo.h \
+  /usr/local/include/pangolin/gl/glstate.h \
+  /usr/include/c++/5/stack \
+  /usr/include/c++/5/bits/stl_stack.h \
+  /usr/local/include/pangolin/gl/colour.h \
+  /usr/local/include/pangolin/display/view.h \
+  /usr/local/include/pangolin/display/attach.h \
+  /usr/local/include/pangolin/plot/plotter.h \
+  /usr/local/include/pangolin/gl/glfont.h \
+  /usr/local/include/pangolin/gl/gltext.h \
+  /usr/local/include/pangolin/gl/glchar.h \
+  /usr/include/c++/5/cstdarg \
+  /usr/local/include/pangolin/gl/glsl.h \
+  /usr/local/include/pangolin/utils/file_utils.h \
+  /usr/local/include/pangolin/handler/handler.h \
+  /usr/local/include/pangolin/plot/datalog.h \
+  /usr/local/include/pangolin/plot/range.h \
+  /usr/local/include/pangolin/var/varextra.h \
+  /usr/local/include/pangolin/var/var.h \
+  /usr/local/include/pangolin/var/varvalue.h \
+  /usr/local/include/pangolin/var/varvaluet.h \
+  /usr/local/include/pangolin/var/varvaluegeneric.h \
+  /usr/local/include/pangolin/var/varwrapper.h \
+  /usr/local/include/pangolin/var/varstate.h \
+  /usr/local/include/pangolin/display/widgets/widgets.h \
+  /usr/local/include/pangolin/video/video.h \
+  /usr/local/include/pangolin/utils/uri.h \
+  /usr/local/include/pangolin/video/video_exception.h \
+  /usr/local/include/pangolin/video/video_interface.h \
+  /usr/local/include/pangolin/utils/picojson.h \
+  /usr/include/c++/5/iterator \
+  /usr/include/c++/5/bits/stream_iterator.h \
+  /usr/local/include/pangolin/video/stream_info.h \
+  /usr/local/include/pangolin/video/video_output_interface.h \
+  /usr/local/include/pangolin/video/video_input.h \
+  /usr/local/include/pangolin/video/video_output.h \
   ../include/dataset.h
 
 src/CMakeFiles/myslam.dir/camera.cpp.o: ../src/camera.cpp \
@@ -4972,6 +7154,734 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
   /usr/include/boost/format/free_funcs.hpp \
   /usr/include/boost/format/detail/unset_macros.hpp
 
+src/CMakeFiles/myslam.dir/viewer.cpp.o: ../src/viewer.cpp \
+  /usr/include/stdc-predef.h \
+  ../include/viewer.h \
+  ../include/Include.h \
+  /usr/include/c++/5/memory \
+  /usr/include/c++/5/bits/stl_algobase.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/cpu_defines.h \
+  /usr/include/c++/5/bits/functexcept.h \
+  /usr/include/c++/5/bits/exception_defines.h \
+  /usr/include/c++/5/bits/cpp_type_traits.h \
+  /usr/include/c++/5/ext/type_traits.h \
+  /usr/include/c++/5/ext/numeric_traits.h \
+  /usr/include/c++/5/bits/stl_pair.h \
+  /usr/include/c++/5/bits/move.h \
+  /usr/include/c++/5/bits/concept_check.h \
+  /usr/include/c++/5/type_traits \
+  /usr/include/c++/5/bits/stl_iterator_base_types.h \
+  /usr/include/c++/5/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/5/debug/debug.h \
+  /usr/include/c++/5/bits/stl_iterator.h \
+  /usr/include/c++/5/bits/ptr_traits.h \
+  /usr/include/c++/5/bits/predefined_ops.h \
+  /usr/include/c++/5/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
+  /usr/include/c++/5/ext/new_allocator.h \
+  /usr/include/c++/5/new \
+  /usr/include/c++/5/exception \
+  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/5/bits/exception_ptr.h \
+  /usr/include/c++/5/bits/nested_exception.h \
+  /usr/include/c++/5/bits/memoryfwd.h \
+  /usr/include/c++/5/bits/stl_construct.h \
+  /usr/include/c++/5/ext/alloc_traits.h \
+  /usr/include/c++/5/bits/alloc_traits.h \
+  /usr/include/c++/5/bits/stl_uninitialized.h \
+  /usr/include/c++/5/bits/stl_tempbuf.h \
+  /usr/include/c++/5/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/5/typeinfo \
+  /usr/include/c++/5/bits/hash_bytes.h \
+  /usr/include/c++/5/iosfwd \
+  /usr/include/c++/5/bits/stringfwd.h \
+  /usr/include/c++/5/bits/postypes.h \
+  /usr/include/c++/5/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+  /usr/include/xlocale.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/5/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+  /usr/include/sched.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/atomic_word.h \
+  /usr/include/c++/5/ext/concurrence.h \
+  /usr/include/c++/5/bits/stl_function.h \
+  /usr/include/c++/5/backward/binders.h \
+  /usr/include/c++/5/bits/uses_allocator.h \
+  /usr/include/c++/5/functional \
+  /usr/include/c++/5/tuple \
+  /usr/include/c++/5/utility \
+  /usr/include/c++/5/bits/stl_relops.h \
+  /usr/include/c++/5/initializer_list \
+  /usr/include/c++/5/array \
+  /usr/include/c++/5/stdexcept \
+  /usr/include/c++/5/string \
+  /usr/include/c++/5/bits/char_traits.h \
+  /usr/include/c++/5/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/c++/5/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h \
+  /usr/include/c++/5/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/5/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/5/bits/ostream_insert.h \
+  /usr/include/c++/5/bits/cxxabi_forced.h \
+  /usr/include/c++/5/bits/range_access.h \
+  /usr/include/c++/5/bits/basic_string.h \
+  /usr/include/c++/5/ext/string_conversions.h \
+  /usr/include/c++/5/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sigset.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/5/cstdio \
+  /usr/include/libio.h \
+  /usr/include/_G_config.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+  /usr/include/c++/5/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/c++/5/bits/functional_hash.h \
+  /usr/include/c++/5/bits/basic_string.tcc \
+  /usr/include/c++/5/bits/unique_ptr.h \
+  /usr/include/c++/5/bits/shared_ptr.h \
+  /usr/include/c++/5/bits/shared_ptr_base.h \
+  /usr/include/c++/5/bits/allocated_ptr.h \
+  /usr/include/c++/5/ext/aligned_buffer.h \
+  /usr/include/c++/5/bits/shared_ptr_atomic.h \
+  /usr/include/c++/5/bits/atomic_base.h \
+  /usr/include/c++/5/backward/auto_ptr.h \
+  /usr/include/c++/5/iostream \
+  /usr/include/c++/5/ostream \
+  /usr/include/c++/5/ios \
+  /usr/include/c++/5/bits/ios_base.h \
+  /usr/include/c++/5/bits/locale_classes.h \
+  /usr/include/c++/5/bits/locale_classes.tcc \
+  /usr/include/c++/5/system_error \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/error_constants.h \
+  /usr/include/c++/5/streambuf \
+  /usr/include/c++/5/bits/streambuf.tcc \
+  /usr/include/c++/5/bits/basic_ios.h \
+  /usr/include/c++/5/bits/locale_facets.h \
+  /usr/include/c++/5/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_base.h \
+  /usr/include/c++/5/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h \
+  /usr/include/c++/5/bits/locale_facets.tcc \
+  /usr/include/c++/5/bits/basic_ios.tcc \
+  /usr/include/c++/5/bits/ostream.tcc \
+  /usr/include/c++/5/istream \
+  /usr/include/c++/5/bits/istream.tcc \
+  /usr/include/c++/5/mutex \
+  /usr/include/c++/5/chrono \
+  /usr/include/c++/5/ratio \
+  /usr/include/c++/5/limits \
+  /usr/include/c++/5/ctime \
+  /usr/include/c++/5/bits/parse_numbers.h \
+  /usr/include/c++/5/thread \
+  /usr/include/c++/5/vector \
+  /usr/include/c++/5/bits/stl_vector.h \
+  /usr/include/c++/5/bits/stl_bvector.h \
+  /usr/include/c++/5/bits/vector.tcc \
+  /usr/include/c++/5/set \
+  /usr/include/c++/5/bits/stl_tree.h \
+  /usr/include/c++/5/bits/stl_set.h \
+  /usr/include/c++/5/bits/stl_multiset.h \
+  /usr/include/c++/5/unordered_map \
+  /usr/include/c++/5/bits/hashtable.h \
+  /usr/include/c++/5/bits/hashtable_policy.h \
+  /usr/include/c++/5/bits/unordered_map.h \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/c++/5/complex \
+  /usr/include/c++/5/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+  /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+  /usr/include/x86_64-linux-gnu/bits/inf.h \
+  /usr/include/x86_64-linux-gnu/bits/nan.h \
+  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+  /usr/include/c++/5/sstream \
+  /usr/include/c++/5/bits/sstream.tcc \
+  /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/omp.h \
+  /usr/include/c++/5/cstddef \
+  /usr/include/c++/5/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/5/cstring \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/string3.h \
+  /usr/include/c++/5/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/c++/5/algorithm \
+  /usr/include/c++/5/bits/stl_algo.h \
+  /usr/include/c++/5/bits/algorithmfwd.h \
+  /usr/include/c++/5/bits/stl_heap.h \
+  /usr/include/c++/5/random \
+  /usr/include/c++/5/bits/random.h \
+  /usr/include/c++/5/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/opt_random.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/x86intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/ammintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xtestintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mm3dnow.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fma4intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xopintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/pcommitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/mwaitxintrin.h \
+  /usr/include/c++/5/bits/random.tcc \
+  /usr/include/c++/5/numeric \
+  /usr/include/c++/5/bits/stl_numeric.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h \
+  /usr/local/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/local/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/local/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/local/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/local/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/local/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/local/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/local/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/local/include/eigen3/Eigen/Geometry \
+  /usr/local/include/eigen3/Eigen/Core \
+  /usr/local/include/eigen3/Eigen/SVD \
+  /usr/local/include/eigen3/Eigen/QR \
+  /usr/local/include/eigen3/Eigen/Cholesky \
+  /usr/local/include/eigen3/Eigen/Jacobi \
+  /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/local/include/eigen3/Eigen/Householder \
+  /usr/local/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/local/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/local/include/eigen3/Eigen/LU \
+  /usr/local/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/local/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/local/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/local/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h \
+  /usr/local/include/sophus/se3.hpp \
+  /usr/local/include/sophus/so3.hpp \
+  /usr/local/include/sophus/rotation_matrix.hpp \
+  /usr/include/eigen3/Eigen/Dense \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/Cholesky \
+  /usr/include/eigen3/Eigen/QR \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/Eigenvalues \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/Jacobi \
+  /usr/include/eigen3/Eigen/Householder \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/local/include/sophus/types.hpp \
+  /usr/local/include/sophus/common.hpp \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/local/include/sophus/formatstring.hpp \
+  /usr/local/include/sophus/so2.hpp \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/local/include/sophus/so3.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/hal/interface.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cv_cpu_dispatch.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/version.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/base.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv_modules.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ptr.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/neon_utils.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/vsx_utils.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/traits.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/matx.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/saturate.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/fast_math.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp \
+  /usr/include/c++/5/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/bufferpool.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/persistence.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/operations.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvstd.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/utility.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/core_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/optim.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/ovx.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cvdef.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/features2d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/miniflann.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/config.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/affine.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d/calib3d_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/flann_base.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/general.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/matrix.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h \
+  /usr/include/c++/5/map \
+  /usr/include/c++/5/bits/stl_map.h \
+  /usr/include/c++/5/bits/stl_multimap.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/all_indices.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dynamic_bitset.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/random.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kmeans_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/composite_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/linear_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/hierarchical_clustering_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/lsh_table.h \
+  /usr/include/c++/5/iomanip \
+  /usr/include/c++/5/locale \
+  /usr/include/c++/5/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/5/bits/codecvt.h \
+  /usr/include/c++/5/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/5/bits/locale_conv.h \
+  /usr/include/c++/5/bits/stringfwd.h \
+  /usr/include/c++/5/bits/allocator.h \
+  /usr/include/c++/5/bits/codecvt.h \
+  /usr/include/c++/5/bits/unique_ptr.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/autotuned_index.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/ground_truth.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/index_testing.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/timer.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/sampling.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/highgui_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/imgproc_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc/types_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs/imgcodecs_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videoio/videoio_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/ml.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/detection_based_tracker.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/objdetect_c.h \
+  /usr/include/c++/5/deque \
+  /usr/include/c++/5/bits/stl_deque.h \
+  /usr/include/c++/5/bits/deque.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/photo/photo_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/emdL1.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_transformer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/hist_cost.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_distance.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda_types.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/cuda.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/motion_estimators.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/matchers.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp \
+  /usr/include/c++/5/list \
+  /usr/include/c++/5/bits/stl_list.h \
+  /usr/include/c++/5/bits/list.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/c++/5/queue \
+  /usr/include/c++/5/bits/stl_queue.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/exposure_compensate.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/seam_finders.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/blenders.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/superres/optical_flow.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/background_segm.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking_c.h \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/stabilizer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/global_motion.hpp \
+  /usr/include/c++/5/fstream \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h \
+  /usr/include/c++/5/bits/fstream.tcc \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/optical_flow.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_core.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/outlier_rejection.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/motion_stabilizing.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/frame_source.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/log.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/inpainting.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/deblurring.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/ring_buffer.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/types.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/widgets.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/viz3d.hpp \
+  /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/vizcore.hpp \
+  /usr/include/glog/logging.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/getopt.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+  /usr/include/inttypes.h \
+  /usr/local/include/gflags/gflags.h \
+  /usr/local/include/gflags/gflags_declare.h \
+  /usr/local/include/gflags/gflags_gflags.h \
+  /usr/include/glog/log_severity.h \
+  /usr/include/glog/vlog_is_on.h \
+  ../include/Map.h \
+  ../include/Frame.h \
+  ../include/MapPoint.h \
+  /usr/local/include/pangolin/pangolin.h \
+  /usr/local/include/pangolin/platform.h \
+  /usr/local/include/pangolin/config.h \
+  /usr/local/include/pangolin/utils/assert.h \
+  /usr/local/include/pangolin/utils/format_string.h \
+  /usr/local/include/pangolin/utils/log.h \
+  /usr/local/include/pangolin/gl/gl.h \
+  /usr/local/include/pangolin/display/viewport.h \
+  /usr/local/include/pangolin/gl/glinclude.h \
+  /usr/local/include/pangolin/gl/glplatform.h \
+  /usr/include/GL/glew.h \
+  /usr/include/GL/glu.h \
+  /usr/include/GL/gl.h \
+  /usr/local/include/pangolin/gl/glpangoglu.h \
+  /usr/local/include/pangolin/display/opengl_render_state.h \
+  /usr/local/include/pangolin/utils/simple_math.h \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/local/include/pangolin/image/image_io.h \
+  /usr/local/include/pangolin/image/typed_image.h \
+  /usr/local/include/pangolin/image/managed_image.h \
+  /usr/local/include/pangolin/image/image.h \
+  /usr/local/include/pangolin/image/memcpy.h \
+  /usr/local/include/pangolin/image/copy.h \
+  /usr/local/include/pangolin/image/pixel_format.h \
+  /usr/local/include/pangolin/utils/file_extension.h \
+  /usr/local/include/pangolin/gl/gl.hpp \
+  /usr/local/include/pangolin/gl/glpixformat.h \
+  /usr/local/include/pangolin/gl/glformattraits.h \
+  /usr/local/include/pangolin/display/display.h \
+  /usr/local/include/pangolin/handler/handler_enums.h \
+  /usr/local/include/pangolin/utils/params.h \
+  /usr/local/include/pangolin/utils/type_convert.h \
+  /usr/local/include/pangolin/compat/type_traits.h \
+  /usr/local/include/pangolin/display/window.h \
+  /usr/local/include/pangolin/gl/gldraw.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/pangolin/gl/glvbo.h \
+  /usr/local/include/pangolin/gl/glstate.h \
+  /usr/include/c++/5/stack \
+  /usr/include/c++/5/bits/stl_stack.h \
+  /usr/local/include/pangolin/gl/colour.h \
+  /usr/local/include/pangolin/display/view.h \
+  /usr/local/include/pangolin/display/attach.h \
+  /usr/local/include/pangolin/plot/plotter.h \
+  /usr/local/include/pangolin/gl/glfont.h \
+  /usr/local/include/pangolin/gl/gltext.h \
+  /usr/local/include/pangolin/gl/glchar.h \
+  /usr/include/c++/5/cstdarg \
+  /usr/local/include/pangolin/gl/glsl.h \
+  /usr/local/include/pangolin/utils/file_utils.h \
+  /usr/local/include/pangolin/handler/handler.h \
+  /usr/local/include/pangolin/plot/datalog.h \
+  /usr/local/include/pangolin/plot/range.h \
+  /usr/local/include/pangolin/var/varextra.h \
+  /usr/local/include/pangolin/var/var.h \
+  /usr/local/include/pangolin/var/varvalue.h \
+  /usr/local/include/pangolin/var/varvaluet.h \
+  /usr/local/include/pangolin/var/varvaluegeneric.h \
+  /usr/local/include/pangolin/var/varwrapper.h \
+  /usr/local/include/pangolin/var/varstate.h \
+  /usr/local/include/pangolin/display/widgets/widgets.h \
+  /usr/local/include/pangolin/video/video.h \
+  /usr/local/include/pangolin/utils/uri.h \
+  /usr/local/include/pangolin/video/video_exception.h \
+  /usr/local/include/pangolin/video/video_interface.h \
+  /usr/local/include/pangolin/utils/picojson.h \
+  /usr/include/c++/5/iterator \
+  /usr/include/c++/5/bits/stream_iterator.h \
+  /usr/local/include/pangolin/video/stream_info.h \
+  /usr/local/include/pangolin/video/video_output_interface.h \
+  /usr/local/include/pangolin/video/video_input.h \
+  /usr/local/include/pangolin/video/video_output.h
+
 
 /usr/include/boost/format/detail/unset_macros.hpp:
 
@@ -4999,8 +7909,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/predef/os/linux.h:
 
-/usr/include/boost/predef/os/cygwin.h:
-
 /usr/include/boost/predef/os/bsd/net.h:
 
 /usr/include/boost/predef/os/bsd/open.h:
@@ -5008,8 +7916,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/boost/predef/os/bsd/free.h:
 
 /usr/include/boost/predef/os/macos.h:
-
-/usr/include/boost/predef/os/beos.h:
 
 /usr/include/boost/predef/os/android.h:
 
@@ -5042,8 +7948,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/boost/predef/library/c/zos.h:
 
 /usr/include/boost/predef/library/c/uc.h:
-
-/usr/include/boost/predef/library/c/_prefix.h:
 
 /usr/include/boost/predef/compiler/visualc.h:
 
@@ -5086,8 +7990,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/boost/predef/compiler/clang.h:
 
 /usr/include/boost/predef/compiler.h:
-
-/usr/include/boost/predef/architecture/z.h:
 
 /usr/include/boost/predef/architecture/x86/64.h:
 
@@ -5141,8 +8043,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/cxxabi.h:
 
-/usr/include/boost/core/demangle.hpp:
-
 /usr/include/boost/core/typeinfo.hpp:
 
 /usr/include/boost/detail/sp_typeinfo.hpp:
@@ -5182,8 +8082,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
 
 /usr/include/boost/preprocessor/array/elem.hpp:
-
-/usr/include/boost/preprocessor/punctuation/paren.hpp:
 
 /usr/include/boost/utility/in_place_factory.hpp:
 
@@ -5243,7 +8141,109 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/type_traits/is_nothrow_move_assignable.hpp:
 
-/usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
+/usr/include/boost/type_traits/is_class.hpp:
+
+/usr/include/boost/type_traits/is_base_and_derived.hpp:
+
+/usr/include/boost/predef/os/solaris.h:
+
+/usr/include/boost/predef/os/irix.h:
+
+/usr/include/boost/type_traits/is_base_of.hpp:
+
+/usr/include/boost/mpl/eval_if.hpp:
+
+/usr/include/boost/type_traits/add_pointer.hpp:
+
+/usr/include/boost/type_traits/detail/false_result.hpp:
+
+/usr/include/boost/type_traits/is_array.hpp:
+
+/usr/include/boost/type_traits/decay.hpp:
+
+/usr/include/boost/type_traits/remove_reference.hpp:
+
+/usr/include/boost/preprocessor/list/append.hpp:
+
+/usr/include/boost/preprocessor/tuple/size.hpp:
+
+/usr/include/boost/preprocessor/repetition/detail/for.hpp:
+
+/usr/include/boost/preprocessor/repetition/for.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/usr/include/boost/preprocessor/variadic/elem.hpp:
+
+/usr/include/boost/preprocessor/tuple/rem.hpp:
+
+/usr/include/boost/preprocessor/variadic/size.hpp:
+
+/usr/include/boost/preprocessor/control/detail/while.hpp:
+
+/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/usr/include/boost/preprocessor/detail/is_binary.hpp:
+
+/usr/include/boost/preprocessor/list/adt.hpp:
+
+/usr/include/boost/preprocessor/control/expr_iif.hpp:
+
+/usr/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/usr/include/boost/preprocessor/list/fold_left.hpp:
+
+/usr/include/boost/preprocessor/control/while.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/add.hpp:
+
+/usr/include/boost/preprocessor/identity.hpp:
+
+/usr/include/boost/format/alt_sstream.hpp:
+
+/usr/include/boost/preprocessor/logical/bitand.hpp:
+
+/usr/include/boost/preprocessor/logical/and.hpp:
+
+/usr/include/boost/type_traits/has_trivial_move_assign.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/usr/include/boost/mpl/aux_/config/dtp.hpp:
+
+/usr/include/boost/mpl/aux_/arity.hpp:
+
+/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/usr/include/boost/mpl/void_fwd.hpp:
+
+/usr/include/boost/mpl/lambda_fwd.hpp:
+
+/usr/include/boost/mpl/aux_/na_spec.hpp:
+
+/usr/include/boost/mpl/aux_/config/eti.hpp:
+
+/usr/include/boost/type_traits/type_with_alignment.hpp:
+
+/usr/include/boost/type_traits/detail/type_trait_def.hpp:
+
+/usr/include/boost/type_traits/remove_cv.hpp:
+
+/usr/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+
+/usr/include/boost/type_traits/is_member_function_pointer.hpp:
+
+/usr/include/boost/predef/os/bsd/dragonfly.h:
+
+/usr/include/boost/type_traits/is_member_pointer.hpp:
+
+/usr/include/boost/type_traits/is_pointer.hpp:
+
+/usr/include/boost/predef/platform/windows_phone.h:
+
+/usr/include/boost/type_traits/is_enum.hpp:
+
+/usr/include/boost/type_traits/is_integral.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/camera.hpp:
 
@@ -5258,6 +8258,10 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h:
 
 /usr/include/boost/preprocessor/debug/error.hpp:
+
+/usr/include/boost/preprocessor/punctuation/paren.hpp:
+
+/usr/local/include/pangolin/gl/glpixformat.h:
 
 /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
 
@@ -5301,8 +8305,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/streambuf:
 
-/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
 /usr/include/boost/utility/detail/in_place_factory_suffix.hpp:
@@ -5345,15 +8347,9 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/pthread.h:
 
-/usr/include/boost/predef/library/c/vms.h:
-
-/usr/include/boost/throw_exception.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h:
-
-/usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
 /usr/include/boost/smart_ptr/detail/yield_k.hpp:
 
@@ -5377,19 +8373,15 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/eigen3/Eigen/Cholesky:
 
-/usr/include/boost/preprocessor/list/detail/fold_left.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/DenseBase.h:
-
-/usr/include/c++/5/cstdint:
-
-/usr/include/c++/5/ext/type_traits.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h:
+
+../include/Convert.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
@@ -5411,9 +8403,19 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/type_traits/is_same.hpp:
 
+/usr/include/boost/predef/library/c/vms.h:
+
+/usr/include/boost/throw_exception.hpp:
+
+/usr/local/include/pangolin/video/stream_info.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h:
+
+/usr/include/boost/preprocessor/tuple/to_list.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
@@ -5427,11 +8429,11 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 ../src/camera.cpp:
 
-/usr/include/boost/preprocessor/control/detail/while.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/SolverBase.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavecintrin.h:
+
+/usr/local/include/pangolin/video/video_output_interface.h:
 
 ../src/System.cpp:
 
@@ -5444,8 +8446,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveoptintrin.h:
 
 /usr/include/c++/5/vector:
 
@@ -5477,15 +8477,13 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/f16cintrin.h:
 
-/usr/include/boost/predef/platform/windows_store.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/5/include/fmaintrin.h:
-
 /usr/include/boost/type_traits/is_lvalue_reference.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/bmi2intrin.h:
+
+/usr/local/include/pangolin/platform.h:
 
 /usr/include/boost/mpl/aux_/preprocessor/params.hpp:
 
@@ -5499,9 +8497,11 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/eigen3/Eigen/SVD:
 
-/usr/local/include/eigen3/Eigen/src/Core/util/Memory.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/boost/type_traits/is_function.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/lzcntintrin.h:
 
 /usr/include/boost/predef/detail/_exception.h:
 
@@ -5541,13 +8541,15 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/tmmintrin.h:
 
-/usr/include/boost/type_traits/is_class.hpp:
-
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/neon_utils.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/Dot.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/ia32intrin.h:
+
+/usr/include/boost/mpl/if.hpp:
+
+/usr/include/c++/5/bits/stl_heap.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/mm_malloc.h:
 
@@ -5569,15 +8571,23 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
+/usr/include/boost/preprocessor/list/transform.hpp:
+
+/usr/include/c++/5/bits/random.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/Transpose.h:
 
 /usr/include/c++/5/bits/exception_defines.h:
 
+/usr/include/boost/preprocessor/detail/check.hpp:
+
+/usr/include/c++/5/random:
+
 /usr/include/boost/type_traits/detail/ice_eq.hpp:
 
-/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
-
 /usr/include/c++/5/bits/uniform_int_dist.h:
+
+/usr/local/include/pangolin/utils/simple_math.h:
 
 /usr/include/limits.h:
 
@@ -5591,8 +8601,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/preprocessor/detail/auto_rec.hpp:
 
-/usr/include/boost/type_traits/is_array.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/string3.h:
 
 /usr/include/c++/5/cassert:
@@ -5600,10 +8608,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/c++/5/cmath:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/omp.h:
-
-/usr/include/c++/5/random:
-
-/usr/include/boost/preprocessor/detail/check.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h:
 
@@ -5622,6 +8626,12 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/boost/predef/compiler/hp_acc.h:
 
 /usr/include/c++/5/bits/functional_hash.h:
+
+/usr/include/boost/type_traits/remove_bounds.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Householder/Householder.h:
+
+/usr/local/include/pangolin/pangolin.h:
 
 /usr/include/c++/5/bits/cpp_type_traits.h:
 
@@ -5643,13 +8653,11 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/chrono:
 
-/usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h:
-
-/usr/include/c++/5/stdexcept:
-
-/usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h:
-
 /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h:
+
+/usr/include/boost/predef/os/cygwin.h:
+
+/usr/local/include/pangolin/display/attach.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
@@ -5685,19 +8693,11 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/endian.h:
 
-/usr/include/boost/preprocessor/tuple/rem.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/Visitor.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/Inverse.h:
-
-/usr/include/xlocale.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
@@ -5731,8 +8731,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/bufferpool.hpp:
 
-/usr/include/boost/preprocessor/control/while.hpp:
-
 /usr/include/wchar.h:
 
 /usr/include/c++/5/bits/stringfwd.h:
@@ -5740,6 +8738,12 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/c++/5/bits/functexcept.h:
 
 /usr/include/c++/5/queue:
+
+/usr/local/include/pangolin/display/widgets/widgets.h:
+
+/usr/include/boost/preprocessor/tuple/elem.hpp:
+
+/usr/include/c++/5/iosfwd:
 
 /usr/include/eigen3/Eigen/Jacobi:
 
@@ -5752,8 +8756,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/boost/type_traits/detail/size_t_trait_def.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/boost/mpl/aux_/config/dtp.hpp:
 
 /usr/include/c++/5/bits/stl_function.h:
 
@@ -5783,6 +8785,10 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/cctype:
 
+/usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveoptintrin.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
+
 /usr/include/boost/format/detail/workarounds_gcc-2_95.hpp:
 
 /usr/include/boost/predef/compiler/compaq.h:
@@ -5805,6 +8811,8 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/local/include/sophus/types.hpp:
 
+/usr/include/GL/glu.h:
+
 /usr/include/c++/5/bits/predefined_ops.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
@@ -5826,10 +8834,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/c++/5/bits/stl_tempbuf.h:
 
 /usr/include/inttypes.h:
-
-/usr/include/boost/predef/platform/windows_phone.h:
-
-/usr/include/boost/type_traits/is_enum.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
 
@@ -5861,6 +8865,12 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h:
 
+/usr/local/include/pangolin/plot/range.h:
+
+/usr/include/boost/preprocessor/logical/compl.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/Ref.h:
+
 /usr/include/boost/config/no_tr1/memory.hpp:
 
 /usr/include/c++/5/bits/stl_construct.h:
@@ -5879,9 +8889,17 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 ../include/Include.h:
 
+/usr/include/boost/mpl/aux_/na_fwd.hpp:
+
+/usr/include/c++/5/bits/stl_algobase.h:
+
 /usr/include/boost/preprocessor/slot/slot.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/operations.hpp:
+
+/usr/local/include/pangolin/gl/glformattraits.h:
+
+/usr/local/include/pangolin/plot/datalog.h:
 
 /usr/include/boost/mpl/integral_c.hpp:
 
@@ -5919,6 +8937,14 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/vizcore.hpp:
 
+/usr/local/include/pangolin/gl/colour.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Inverse.h:
+
+/usr/local/include/pangolin/plot/plotter.h:
+
 /usr/include/boost/predef/os/haiku.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h:
@@ -5932,8 +8958,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/c++/5/bits/basic_ios.h:
 
 /usr/include/boost/format/detail/workarounds_stlport.hpp:
-
-/usr/include/boost/preprocessor/list/adt.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda.hpp:
 
@@ -5955,10 +8979,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/Ref.h:
-
-/usr/include/boost/preprocessor/logical/compl.hpp:
-
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/inpainting.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp:
@@ -5972,6 +8992,8 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/c++/5/bits/stl_map.h:
 
 /usr/include/c++/5/array:
+
+/usr/local/include/pangolin/gl/gltext.h:
 
 /usr/include/c++/5/functional:
 
@@ -6015,6 +9037,12 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/ios:
 
+/usr/include/boost/mpl/aux_/value_wknd.hpp:
+
+/usr/include/boost/type_traits/detail/type_trait_undef.hpp:
+
+/usr/include/c++/5/memory:
+
 /usr/include/c++/5/cfloat:
 
 /usr/include/boost/predef/library/std/modena.h:
@@ -6028,6 +9056,10 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/c++/5/limits:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavesintrin.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Memory.h:
+
+/usr/local/include/pangolin/gl/gldraw.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/fxsrintrin.h:
 
@@ -6043,6 +9075,10 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/bits/cxxabi_forced.h:
 
+/usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
+
+/usr/local/include/pangolin/display/view.h:
+
 /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h:
@@ -6056,8 +9092,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512cdintrin.h:
 
 /usr/include/c++/5/bits/range_access.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
 
 /usr/include/ctype.h:
 
@@ -6091,9 +9125,11 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp:
 
+/usr/local/include/pangolin/gl/glinclude.h:
+
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
-/usr/include/boost/mpl/eval_if.hpp:
+/usr/local/include/pangolin/handler/handler.h:
 
 /usr/include/c++/5/bits/streambuf_iterator.h:
 
@@ -6108,8 +9144,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/boost/preprocessor/config/config.hpp:
-
-/usr/include/boost/type_traits/add_pointer.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
 
@@ -6145,10 +9179,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/config/suffix.hpp:
 
-/usr/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
-
-/usr/include/boost/type_traits/remove_reference.hpp:
-
 /usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h:
@@ -6162,16 +9192,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
 /usr/include/c++/5/bits/shared_ptr.h:
-
-/usr/include/boost/mpl/aux_/value_wknd.hpp:
-
-/usr/include/c++/5/memory:
-
-/usr/include/boost/type_traits/detail/type_trait_undef.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Householder/Householder.h:
-
-/usr/include/boost/type_traits/remove_bounds.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
 
@@ -6213,6 +9233,10 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/bits/locale_classes.h:
 
+/usr/include/boost/preprocessor/empty.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h:
+
 /usr/include/boost/type_traits/remove_const.hpp:
 
 /usr/include/boost/type_traits/detail/size_t_trait_undef.hpp:
@@ -6229,15 +9253,11 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
-/usr/include/boost/preprocessor/list/append.hpp:
-
 /usr/include/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/c++/5/cwctype:
-
-/usr/include/boost/type_traits/is_float.hpp:
 
 /usr/include/wctype.h:
 
@@ -6281,6 +9301,14 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/eigen3/Eigen/Eigenvalues:
 
+../src/viewer.cpp:
+
+/usr/local/include/pangolin/display/viewport.h:
+
+/usr/include/boost/mpl/limits/arity.hpp:
+
+/usr/include/c++/5/ctime:
+
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
 /usr/include/c++/5/bits/parse_numbers.h:
@@ -6289,11 +9317,13 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/huge_vall.h:
 
-/usr/include/boost/type_traits/decay.hpp:
-
 /usr/include/c++/5/string:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/include/boost/predef/os/beos.h:
+
+/usr/local/include/pangolin/utils/file_extension.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -6311,9 +9341,9 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/affine.hpp:
 
-/usr/include/boost/preprocessor/comma_if.hpp:
+/usr/local/include/pangolin/utils/uri.h:
 
-/usr/include/boost/type_traits/ice.hpp:
+/usr/include/boost/preprocessor/comma_if.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathdef.h:
 
@@ -6333,8 +9363,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/ratio:
 
-/usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/5/include/rtmintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
@@ -6353,23 +9381,21 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/inf.h:
 
+/usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h:
+
+/usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/5/include/clwbintrin.h:
 
 /usr/include/c++/5/bits/uses_allocator.h:
 
 /usr/include/boost/preprocessor/control/iif.hpp:
 
-/usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h:
-
-/usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h:
+/usr/local/include/pangolin/var/varvaluet.h:
 
 /usr/local/include/eigen3/Eigen/LU:
 
 /usr/local/include/eigen3/Eigen/src/misc/Kernel.h:
-
-/usr/include/c++/5/bits/random.h:
-
-/usr/include/boost/preprocessor/list/transform.hpp:
 
 /usr/include/c++/5/bits/ios_base.h:
 
@@ -6427,15 +9453,9 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SSE.h:
 
-/usr/include/boost/preprocessor/repetition/for.hpp:
-
 /usr/local/include/sophus/se3.hpp:
 
 /usr/local/include/sophus/so3.hpp:
-
-/usr/include/boost/type_traits/detail/type_trait_def.hpp:
-
-/usr/include/boost/preprocessor/list/fold_left.hpp:
 
 /usr/include/eigen3/Eigen/Dense:
 
@@ -6448,6 +9468,8 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/boost/format/detail/config_macros.hpp:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
+
+/usr/local/include/pangolin/image/image.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/objdetect/detection_based_tracker.hpp:
 
@@ -6543,10 +9565,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.hpp:
 
-/usr/include/boost/format/internals_fwd.hpp:
-
-/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/utility.hpp:
-
 /usr/include/boost/preprocessor/control/if.hpp:
 
 /usr/include/boost/type_traits/is_pod.hpp:
@@ -6585,11 +9603,7 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/defines.h:
 
-/usr/include/boost/mpl/aux_/na_spec.hpp:
-
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/config.h:
-
-/usr/include/boost/preprocessor/tuple/size.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/calib3d/calib3d_c.h:
 
@@ -6605,6 +9619,10 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h:
 
+/usr/local/include/pangolin/gl/glplatform.h:
+
+/usr/include/c++/5/bits/stl_stack.h:
+
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h:
@@ -6617,17 +9635,15 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/bits/stl_multimap.h:
 
+/usr/local/include/pangolin/utils/log.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/Swap.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/video/tracking_c.h:
 
-/usr/include/boost/type_traits/is_member_function_pointer.hpp:
-
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/nn_index.h:
-
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/result_set.h:
 
@@ -6651,6 +9667,14 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h:
 
+/usr/include/boost/core/demangle.hpp:
+
+/usr/local/include/pangolin/config.h:
+
+/usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+/usr/include/boost/mpl/aux_/config/nttp.hpp:
+
 /usr/include/boost/mpl/size_t.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h:
@@ -6669,19 +9693,9 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/iomanip:
 
-/usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+/usr/include/boost/preprocessor/list/fold_right.hpp:
 
-/usr/include/boost/preprocessor/tuple/to_list.hpp:
-
-/usr/include/boost/predef/os/solaris.h:
-
-/usr/include/boost/predef/os/irix.h:
-
-/usr/include/boost/type_traits/is_base_of.hpp:
-
-/usr/include/c++/5/bits/locale_facets_nonio.h:
-
-/usr/include/boost/type_traits/detail/false_result.hpp:
+/usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h:
 
 /usr/include/boost/format/detail/compat_workarounds.hpp:
 
@@ -6689,11 +9703,11 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/motion_estimators.hpp:
 
+/usr/local/include/pangolin/utils/assert.h:
+
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/index_testing.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/sampling.h:
-
-/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs.hpp:
 
 /usr/include/boost/predef/architecture/pyramid.h:
 
@@ -6727,15 +9741,15 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/hist_cost.hpp:
 
+/usr/include/boost/preprocessor/facilities/overload.hpp:
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_distance.hpp:
+
 /usr/include/c++/5/climits:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/warpers.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/cuda_types.hpp:
-
-/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/shape/shape_distance.hpp:
-
-/usr/include/boost/preprocessor/facilities/overload.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/dist.h:
 
@@ -6749,15 +9763,17 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/xfeatures2d/cuda.hpp:
 
-/usr/include/c++/5/utility:
+/usr/include/boost/preprocessor/facilities/expand.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/dec.hpp:
 
-/usr/include/boost/preprocessor/facilities/expand.hpp:
+/usr/include/c++/5/utility:
 
 /usr/include/boost/exception/exception.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp:
+
+/usr/local/include/pangolin/video/video_exception.h:
 
 /usr/include/boost/type_traits/config.hpp:
 
@@ -6783,11 +9799,11 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/c++/5/fstream:
 
+/usr/include/c++/5/bits/stream_iterator.h:
+
 /usr/include/c++/5/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h:
-
-/usr/include/boost/type_traits/is_base_and_derived.hpp:
 
 /usr/include/boost/utility/detail/in_place_factory_prefix.hpp:
 
@@ -6797,9 +9813,25 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/5/bits/time_members.h:
+/usr/include/boost/predef/architecture/z.h:
 
-/usr/include/boost/preprocessor/list/fold_right.hpp:
+/usr/local/include/pangolin/image/memcpy.h:
+
+/usr/include/boost/preprocessor/list/for_each_i.hpp:
+
+/usr/include/c++/5/tuple:
+
+/usr/local/include/eigen3/Eigen/Jacobi:
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp:
+
+/usr/include/boost/predef/compiler/pgi.h:
+
+/usr/include/boost/mpl/identity.hpp:
+
+/usr/include/boost/mpl/aux_/config/integral.hpp:
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/viz3d.hpp:
 
 /usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
 
@@ -6810,8 +9842,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/boost/preprocessor/variadic/size.hpp:
 
 /usr/include/getopt.h:
 
@@ -6827,11 +9857,133 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 ../include/camera.h:
 
+../include/Map.h:
+
+/usr/local/include/pangolin/image/image_io.h:
+
+../include/MapPoint.h:
+
+/usr/include/boost/type_traits/ice.hpp:
+
+../include/viewer.h:
+
+/usr/local/include/pangolin/utils/format_string.h:
+
+/usr/local/include/pangolin/gl/gl.h:
+
+/usr/include/boost/predef/platform/windows_store.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/fmaintrin.h:
+
+/usr/include/GL/gl.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
+/usr/local/include/pangolin/gl/glpangoglu.h:
+
+/usr/local/include/pangolin/display/opengl_render_state.h:
+
+/usr/local/include/pangolin/video/video_input.h:
+
+/usr/include/xlocale.h:
+
+/usr/local/include/pangolin/image/typed_image.h:
+
+/usr/include/boost/mpl/bool_fwd.hpp:
+
+/usr/include/c++/5/stack:
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgcodecs.hpp:
+
+/usr/local/include/pangolin/image/copy.h:
+
+/usr/include/boost/mpl/aux_/static_cast.hpp:
+
+/usr/local/include/pangolin/image/pixel_format.h:
+
+/usr/local/include/pangolin/gl/gl.hpp:
+
+/usr/local/include/pangolin/display/display.h:
+
+/usr/local/include/pangolin/handler/handler_enums.h:
+
+/usr/include/c++/5/bits/locale_facets_nonio.h:
+
+/usr/local/include/pangolin/utils/params.h:
+
+/usr/local/include/pangolin/utils/type_convert.h:
+
+/usr/include/boost/predef/library/c/_prefix.h:
+
+/usr/local/include/pangolin/compat/type_traits.h:
+
+/usr/local/include/pangolin/display/window.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h:
+
+/usr/include/c++/5/stdexcept:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h:
+
+/usr/local/include/pangolin/gl/glvbo.h:
+
+/usr/local/include/pangolin/gl/glstate.h:
+
+/usr/local/include/pangolin/video/video_interface.h:
+
+/usr/include/boost/type_traits/is_float.hpp:
+
+/usr/local/include/pangolin/gl/glfont.h:
+
+/usr/include/c++/5/cstdint:
+
+/usr/include/c++/5/ext/type_traits.h:
+
+/usr/local/include/pangolin/gl/glchar.h:
+
+/usr/include/boost/format/internals_fwd.hpp:
+
+/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/utility.hpp:
+
+/usr/include/c++/5/cstdarg:
+
+/usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
+
+/usr/local/include/pangolin/gl/glsl.h:
+
+/usr/local/include/pangolin/utils/file_utils.h:
+
+/usr/local/include/pangolin/var/varextra.h:
+
+/usr/local/include/pangolin/var/var.h:
+
+/usr/local/include/pangolin/var/varvalue.h:
+
+/usr/local/include/pangolin/var/varvaluegeneric.h:
+
+/usr/include/boost/mpl/size_t_fwd.hpp:
+
+/usr/local/include/pangolin/var/varwrapper.h:
+
+/usr/local/include/pangolin/var/varstate.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h:
+
+/usr/local/include/pangolin/video/video.h:
+
+/usr/local/include/pangolin/utils/picojson.h:
+
+/usr/include/c++/5/iterator:
+
+/usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
+
+/usr/local/include/pangolin/video/video_output.h:
+
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
 /usr/include/boost/preprocessor/punctuation/comma_if.hpp:
 
-../include/Map.h:
+../src/Convert.cpp:
 
 /usr/include/boost/predef/architecture/rs6k.h:
 
@@ -6841,11 +9993,19 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/config.hpp:
 
+/usr/include/GL/glew.h:
+
 /usr/include/boost/config/user.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/boost/config/select_platform_config.hpp:
+
+/usr/include/boost/preprocessor/facilities/identity.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+/usr/include/boost/config/posix_features.hpp:
 
 /usr/include/boost/format/format_class.hpp:
 
@@ -6866,10 +10026,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 /usr/include/boost/optional/bad_optional_access.hpp:
 
 /usr/include/boost/static_assert.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Core/MathFunctions.h:
-
-/usr/include/boost/preprocessor/empty.hpp:
 
 /usr/include/boost/type_traits/alignment_of.hpp:
 
@@ -6897,10 +10053,6 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/mpl/aux_/config/workaround.hpp:
 
-/usr/include/boost/mpl/aux_/static_cast.hpp:
-
-/usr/include/boost/type_traits/is_integral.hpp:
-
 /usr/include/c++/5/typeinfo:
 
 /usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
@@ -6919,9 +10071,9 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/mpl/bool.hpp:
 
-/usr/include/boost/mpl/bool_fwd.hpp:
-
 /usr/include/boost/mpl/aux_/lambda_support.hpp:
+
+/usr/local/include/pangolin/image/managed_image.h:
 
 /usr/include/boost/type_traits/detail/bool_trait_undef.hpp:
 
@@ -6931,94 +10083,4 @@ src/CMakeFiles/myslam.dir/dataset.cpp.o: ../src/dataset.cpp \
 
 /usr/include/boost/type_traits/detail/ice_or.hpp:
 
-/usr/include/boost/type_traits/is_pointer.hpp:
-
 /usr/include/boost/type_traits/detail/ice_and.hpp:
-
-/usr/include/boost/mpl/size_t_fwd.hpp:
-
-/usr/include/boost/predef/os/bsd/dragonfly.h:
-
-/usr/include/boost/type_traits/is_member_pointer.hpp:
-
-/usr/include/boost/type_traits/remove_cv.hpp:
-
-/usr/include/boost/type_traits/type_with_alignment.hpp:
-
-/usr/include/c++/5/bits/stl_heap.h:
-
-/usr/include/boost/mpl/if.hpp:
-
-/usr/include/boost/predef/compiler/pgi.h:
-
-/usr/include/boost/mpl/identity.hpp:
-
-/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/viz3d.hpp:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
-
-/usr/include/boost/mpl/aux_/config/eti.hpp:
-
-/usr/include/boost/mpl/lambda_fwd.hpp:
-
-/usr/include/boost/mpl/void_fwd.hpp:
-
-/usr/include/c++/5/bits/stl_algobase.h:
-
-/usr/include/boost/mpl/aux_/na_fwd.hpp:
-
-/usr/include/boost/mpl/aux_/arity.hpp:
-
-/usr/include/boost/type_traits/has_trivial_move_assign.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
-
-/usr/include/c++/5/ctime:
-
-/usr/include/boost/mpl/limits/arity.hpp:
-
-/usr/include/boost/preprocessor/logical/and.hpp:
-
-/usr/include/boost/format/alt_sstream.hpp:
-
-/usr/include/boost/preprocessor/logical/bitand.hpp:
-
-/usr/include/boost/preprocessor/identity.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h:
-
-/usr/include/boost/config/posix_features.hpp:
-
-/usr/include/boost/preprocessor/facilities/identity.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/add.hpp:
-
-/usr/include/boost/preprocessor/control/expr_iif.hpp:
-
-/usr/include/c++/5/iosfwd:
-
-/usr/include/boost/preprocessor/tuple/elem.hpp:
-
-/usr/include/boost/mpl/aux_/config/nttp.hpp:
-
-/usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
-
-/usr/include/boost/preprocessor/variadic/elem.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/sub.hpp:
-
-/usr/include/c++/5/tuple:
-
-/usr/local/include/eigen3/Eigen/Jacobi:
-
-/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp:
-
-/usr/include/boost/preprocessor/list/for_each_i.hpp:
-
-/usr/include/boost/preprocessor/repetition/detail/for.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/5/include/lzcntintrin.h:
-
-/usr/include/boost/type_traits/is_function.hpp:
-
-/usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp:

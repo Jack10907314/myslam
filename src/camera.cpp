@@ -28,6 +28,13 @@ Vec3 Camera::pixel2camera(const Vec2 &p_p, double depth) {
     );
 }
 
+cv::Point2f Camera::pixel2camera(const cv::Point2f &p_p) {
+    return cv::Point2f(
+            (p_p.x - cx_) / fx_,
+            (p_p.y - cy_) / fy_
+    );
+}
+
 Vec2 Camera::world2pixel(const Vec3 &p_w, const SE3 &T_c_w) {
     return camera2pixel(world2camera(p_w, T_c_w));
 }

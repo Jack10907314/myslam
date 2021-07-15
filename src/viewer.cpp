@@ -1,12 +1,9 @@
 //
 // Created by gaoxiang on 19-5-4.
 //
-#include "myslam/viewer.h"
-#include "myslam/feature.h"
-#include "myslam/frame.h"
-
-#include <pangolin/pangolin.h>
-#include <opencv2/opencv.hpp>
+#include "viewer.h"
+//#include "myslam/feature.h"
+//#include "myslam/frame.h"
 
 namespace myslam {
 
@@ -60,7 +57,7 @@ void Viewer::ThreadLoop() {
         if (current_frame_) {
             DrawFrame(current_frame_, green);
             FollowCurrentFrame(vis_camera);
-
+            
             cv::Mat img = PlotFrameImage();
             cv::imshow("image", img);
             cv::waitKey(1);
@@ -79,25 +76,23 @@ void Viewer::ThreadLoop() {
 
 cv::Mat Viewer::PlotFrameImage() {
     cv::Mat img_out;
-    cv::cvtColor(current_frame_->left_img_, img_out, CV_GRAY2BGR);
-    for (size_t i = 0; i < current_frame_->features_left_.size(); ++i) {
-        if (current_frame_->features_left_[i]->map_point_.lock()) {
-            auto feat = current_frame_->features_left_[i];
-            cv::circle(img_out, feat->position_.pt, 2, cv::Scalar(0, 250, 0),
-                       2);
-        }
+    cv::cvtColor(current_frame_->leftImg_, img_out, CV_GRAY2BGR);
+    for (size_t i = 0; i < current_frame_->leftKeypoint_.size(); ++i) {
+        if(current_frame_->leftMapPoint_[i])
+            cv::circle(img_out, current_frame_->leftKeypoint_[i].pt, 2, cv::Scalar(0, 250, 0),
+                        2);
     }
     return img_out;
 }
 
 void Viewer::FollowCurrentFrame(pangolin::OpenGlRenderState& vis_camera) {
-    SE3 Twc = current_frame_->Pose().inverse();
+    SE3 Twc = current_frame_->GetPose().inverse();
     pangolin::OpenGlMatrix m(Twc.matrix());
     vis_camera.Follow(m, true);
 }
 
 void Viewer::DrawFrame(Frame::Ptr frame, const float* color) {
-    SE3 Twc = frame->Pose().inverse();
+    SE3 Twc = frame->GetPose().inverse();
     const float sz = 1.0;
     const int line_width = 2.0;
     const float fx = 400;
@@ -146,14 +141,18 @@ void Viewer::DrawFrame(Frame::Ptr frame, const float* color) {
 
 void Viewer::DrawMapPoints() {
     const float red[3] = {1.0, 0, 0};
+    const float black[3] = {0.0, 0, 0};
+    for (auto& kf : map_->GetKeyFrames()) {
+        DrawFrame(kf, black);
+    }
     for (auto& kf : active_keyframes_) {
-        DrawFrame(kf.second, red);
+        DrawFrame(kf, red);
     }
 
     glPointSize(2);
     glBegin(GL_POINTS);
     for (auto& landmark : active_landmarks_) {
-        auto pos = landmark.second->Pos();
+        auto pos = landmark->GetPosition();
         glColor3f(red[0], red[1], red[2]);
         glVertex3d(pos[0], pos[1], pos[2]);
     }

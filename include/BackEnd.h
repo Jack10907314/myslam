@@ -3,13 +3,12 @@
 #include "Include.h"
 #include "Frame.h"
 #include "camera.h"
-#include "Map.h"
 #include "FrontEnd.h"
 
 namespace myslam{
     
 class FrontEnd;
-
+class Map;
 class BackEnd{
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;

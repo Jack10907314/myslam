@@ -6,5 +6,5 @@ CXX_DEFINES = -DGFLAGS_IS_A_DLL=0
 
 CXX_INCLUDES = -I/usr/include/eigen3 -I/home/user/sda4/Desktop/myslam/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -isystem /usr/local/include/eigen3
 
-CXX_FLAGS = -std=c++11 -Wall -std=c++11 -O3 -fopenmp -pthread -std=gnu++11
+CXX_FLAGS = -std=c++14 -Wall -std=c++14 -O3 -fopenmp -pthread -std=gnu++11
 

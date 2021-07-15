@@ -42,6 +42,8 @@ class Camera {
 
     Vec2 camera2pixel(const Vec3 &p_c);
 
+    cv::Point2f pixel2camera(const cv::Point2f &p_p);
+
     Vec3 pixel2camera(const Vec2 &p_p, double depth = 1);
 
     Vec3 pixel2world(const Vec2 &p_p, const SE3 &T_c_w, double depth = 1);

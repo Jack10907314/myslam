@@ -570,4 +570,5 @@ src/CMakeFiles/myslam.dir/Frame.cpp.o: \
  /usr/local/include/gflags/gflags.h \
  /usr/local/include/gflags/gflags_declare.h \
  /usr/local/include/gflags/gflags_gflags.h \
- /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h
+ /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
+ /home/user/sda4/Desktop/myslam/include/MapPoint.h

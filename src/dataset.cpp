@@ -47,6 +47,7 @@ bool Dataset::Init() {
 }
 
 Frame::Ptr Dataset::NextFrame() {
+    cout << "find images at index " << current_image_index_ << endl;
     boost::format fmt("%s/image_%d/%06d.png");
     cv::Mat image_left, image_right;
     // read images

@@ -1,7 +1,7 @@
-src/CMakeFiles/myslam.dir/FrontEnd.cpp.o: \
- /home/user/sda4/Desktop/myslam/src/FrontEnd.cpp \
+src/CMakeFiles/myslam.dir/Convert.cpp.o: \
+ /home/user/sda4/Desktop/myslam/src/Convert.cpp \
  /usr/include/stdc-predef.h \
- /home/user/sda4/Desktop/myslam/include/FrontEnd.h \
+ /home/user/sda4/Desktop/myslam/include/Convert.h \
  /home/user/sda4/Desktop/myslam/include/Include.h \
  /usr/include/c++/5/memory /usr/include/c++/5/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
@@ -571,78 +571,4 @@ src/CMakeFiles/myslam.dir/FrontEnd.cpp.o: \
  /usr/local/include/gflags/gflags.h \
  /usr/local/include/gflags/gflags_declare.h \
  /usr/local/include/gflags/gflags_gflags.h \
- /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
- /home/user/sda4/Desktop/myslam/include/Convert.h \
- /home/user/sda4/Desktop/myslam/include/Frame.h \
- /home/user/sda4/Desktop/myslam/include/camera.h \
- /home/user/sda4/Desktop/myslam/include/Map.h \
- /home/user/sda4/Desktop/myslam/include/MapPoint.h \
- /home/user/sda4/Desktop/myslam/include/BackEnd.h \
- /home/user/sda4/Desktop/myslam/include/viewer.h \
- /usr/local/include/pangolin/pangolin.h \
- /usr/local/include/pangolin/platform.h \
- /usr/local/include/pangolin/config.h \
- /usr/local/include/pangolin/utils/assert.h \
- /usr/local/include/pangolin/utils/format_string.h \
- /usr/local/include/pangolin/utils/log.h \
- /usr/local/include/pangolin/gl/gl.h \
- /usr/local/include/pangolin/display/viewport.h \
- /usr/local/include/pangolin/gl/glinclude.h \
- /usr/local/include/pangolin/gl/glplatform.h /usr/include/GL/glew.h \
- /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /usr/local/include/pangolin/gl/glpangoglu.h \
- /usr/local/include/pangolin/display/opengl_render_state.h \
- /usr/local/include/pangolin/utils/simple_math.h \
- /usr/include/eigen3/Eigen/Geometry \
- /usr/local/include/pangolin/image/image_io.h \
- /usr/local/include/pangolin/image/typed_image.h \
- /usr/local/include/pangolin/image/managed_image.h \
- /usr/local/include/pangolin/image/image.h \
- /usr/local/include/pangolin/image/memcpy.h \
- /usr/local/include/pangolin/image/copy.h \
- /usr/local/include/pangolin/image/pixel_format.h \
- /usr/local/include/pangolin/utils/file_extension.h \
- /usr/local/include/pangolin/gl/gl.hpp \
- /usr/local/include/pangolin/gl/glpixformat.h \
- /usr/local/include/pangolin/gl/glformattraits.h \
- /usr/local/include/pangolin/display/display.h \
- /usr/local/include/pangolin/handler/handler_enums.h \
- /usr/local/include/pangolin/utils/params.h \
- /usr/local/include/pangolin/utils/type_convert.h \
- /usr/local/include/pangolin/compat/type_traits.h \
- /usr/local/include/pangolin/display/window.h \
- /usr/local/include/pangolin/gl/gldraw.h \
- /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
- /usr/local/include/pangolin/gl/glvbo.h \
- /usr/local/include/pangolin/gl/glstate.h /usr/include/c++/5/stack \
- /usr/include/c++/5/bits/stl_stack.h \
- /usr/local/include/pangolin/gl/colour.h \
- /usr/local/include/pangolin/display/view.h \
- /usr/local/include/pangolin/display/attach.h \
- /usr/local/include/pangolin/plot/plotter.h \
- /usr/local/include/pangolin/gl/glfont.h \
- /usr/local/include/pangolin/gl/gltext.h \
- /usr/local/include/pangolin/gl/glchar.h /usr/include/c++/5/cstdarg \
- /usr/local/include/pangolin/gl/glsl.h \
- /usr/local/include/pangolin/utils/file_utils.h \
- /usr/local/include/pangolin/handler/handler.h \
- /usr/local/include/pangolin/plot/datalog.h \
- /usr/local/include/pangolin/plot/range.h \
- /usr/local/include/pangolin/var/varextra.h \
- /usr/local/include/pangolin/var/var.h \
- /usr/local/include/pangolin/var/varvalue.h \
- /usr/local/include/pangolin/var/varvaluet.h \
- /usr/local/include/pangolin/var/varvaluegeneric.h \
- /usr/local/include/pangolin/var/varwrapper.h \
- /usr/local/include/pangolin/var/varstate.h \
- /usr/local/include/pangolin/display/widgets/widgets.h \
- /usr/local/include/pangolin/video/video.h \
- /usr/local/include/pangolin/utils/uri.h \
- /usr/local/include/pangolin/video/video_exception.h \
- /usr/local/include/pangolin/video/video_interface.h \
- /usr/local/include/pangolin/utils/picojson.h /usr/include/c++/5/iterator \
- /usr/include/c++/5/bits/stream_iterator.h \
- /usr/local/include/pangolin/video/stream_info.h \
- /usr/local/include/pangolin/video/video_output_interface.h \
- /usr/local/include/pangolin/video/video_input.h \
- /usr/local/include/pangolin/video/video_output.h
+ /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h

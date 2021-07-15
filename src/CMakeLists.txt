@@ -8,6 +8,8 @@ add_library(myslam SHARED
         dataset.cpp
         FrontEnd.cpp
         BackEnd.cpp
+        Convert.cpp
+        viewer.cpp
         )
 
 target_link_libraries(myslam ${THIRD_PARTY_LIBS})

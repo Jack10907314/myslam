@@ -5,7 +5,7 @@
 #include "FrontEnd.h"
 #include "BackEnd.h"
 #include "dataset.h"
-//#include "viewer.h"
+#include "viewer.h"
 
 namespace myslam{
 
@@ -27,7 +27,7 @@ private:
     //Frontend::Ptr frontend_ = nullptr;
     //Backend::Ptr backend_ = nullptr;
     Map::Ptr map_ = nullptr;
-    //Viewer::Ptr viewer_ = nullptr;
+    Viewer::Ptr viewer_ = nullptr;
     Dataset::Ptr dataset_ = nullptr;
     std::string configPath_;
 };

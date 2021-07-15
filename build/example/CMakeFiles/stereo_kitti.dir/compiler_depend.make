@@ -655,12 +655,165 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
   ../include/System.h \
   ../include/config.h \
   ../include/FrontEnd.h \
+  ../include/Convert.h \
   ../include/Frame.h \
   ../include/camera.h \
   ../include/Map.h \
+  ../include/MapPoint.h \
   ../include/BackEnd.h \
+  ../include/viewer.h \
+  /usr/local/include/pangolin/pangolin.h \
+  /usr/local/include/pangolin/platform.h \
+  /usr/local/include/pangolin/config.h \
+  /usr/local/include/pangolin/utils/assert.h \
+  /usr/local/include/pangolin/utils/format_string.h \
+  /usr/local/include/pangolin/utils/log.h \
+  /usr/local/include/pangolin/gl/gl.h \
+  /usr/local/include/pangolin/display/viewport.h \
+  /usr/local/include/pangolin/gl/glinclude.h \
+  /usr/local/include/pangolin/gl/glplatform.h \
+  /usr/include/GL/glew.h \
+  /usr/include/GL/glu.h \
+  /usr/include/GL/gl.h \
+  /usr/local/include/pangolin/gl/glpangoglu.h \
+  /usr/local/include/pangolin/display/opengl_render_state.h \
+  /usr/local/include/pangolin/utils/simple_math.h \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/local/include/pangolin/image/image_io.h \
+  /usr/local/include/pangolin/image/typed_image.h \
+  /usr/local/include/pangolin/image/managed_image.h \
+  /usr/local/include/pangolin/image/image.h \
+  /usr/local/include/pangolin/image/memcpy.h \
+  /usr/local/include/pangolin/image/copy.h \
+  /usr/local/include/pangolin/image/pixel_format.h \
+  /usr/local/include/pangolin/utils/file_extension.h \
+  /usr/local/include/pangolin/gl/gl.hpp \
+  /usr/local/include/pangolin/gl/glpixformat.h \
+  /usr/local/include/pangolin/gl/glformattraits.h \
+  /usr/local/include/pangolin/display/display.h \
+  /usr/local/include/pangolin/handler/handler_enums.h \
+  /usr/local/include/pangolin/utils/params.h \
+  /usr/local/include/pangolin/utils/type_convert.h \
+  /usr/local/include/pangolin/compat/type_traits.h \
+  /usr/local/include/pangolin/display/window.h \
+  /usr/local/include/pangolin/gl/gldraw.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/local/include/pangolin/gl/glvbo.h \
+  /usr/local/include/pangolin/gl/glstate.h \
+  /usr/include/c++/5/stack \
+  /usr/include/c++/5/bits/stl_stack.h \
+  /usr/local/include/pangolin/gl/colour.h \
+  /usr/local/include/pangolin/display/view.h \
+  /usr/local/include/pangolin/display/attach.h \
+  /usr/local/include/pangolin/plot/plotter.h \
+  /usr/local/include/pangolin/gl/glfont.h \
+  /usr/local/include/pangolin/gl/gltext.h \
+  /usr/local/include/pangolin/gl/glchar.h \
+  /usr/include/c++/5/cstdarg \
+  /usr/local/include/pangolin/gl/glsl.h \
+  /usr/local/include/pangolin/utils/file_utils.h \
+  /usr/local/include/pangolin/handler/handler.h \
+  /usr/local/include/pangolin/plot/datalog.h \
+  /usr/local/include/pangolin/plot/range.h \
+  /usr/local/include/pangolin/var/varextra.h \
+  /usr/local/include/pangolin/var/var.h \
+  /usr/local/include/pangolin/var/varvalue.h \
+  /usr/local/include/pangolin/var/varvaluet.h \
+  /usr/local/include/pangolin/var/varvaluegeneric.h \
+  /usr/local/include/pangolin/var/varwrapper.h \
+  /usr/local/include/pangolin/var/varstate.h \
+  /usr/local/include/pangolin/display/widgets/widgets.h \
+  /usr/local/include/pangolin/video/video.h \
+  /usr/local/include/pangolin/utils/uri.h \
+  /usr/local/include/pangolin/video/video_exception.h \
+  /usr/local/include/pangolin/video/video_interface.h \
+  /usr/local/include/pangolin/utils/picojson.h \
+  /usr/include/c++/5/iterator \
+  /usr/include/c++/5/bits/stream_iterator.h \
+  /usr/local/include/pangolin/video/stream_info.h \
+  /usr/local/include/pangolin/video/video_output_interface.h \
+  /usr/local/include/pangolin/video/video_input.h \
+  /usr/local/include/pangolin/video/video_output.h \
   ../include/dataset.h
 
+
+/usr/local/include/pangolin/video/video_output.h:
+
+/usr/include/c++/5/iterator:
+
+/usr/local/include/pangolin/utils/picojson.h:
+
+/usr/local/include/pangolin/video/video.h:
+
+/usr/local/include/pangolin/var/varstate.h:
+
+/usr/local/include/pangolin/var/varwrapper.h:
+
+/usr/local/include/pangolin/var/varvaluegeneric.h:
+
+/usr/local/include/pangolin/var/varvalue.h:
+
+/usr/local/include/pangolin/var/var.h:
+
+/usr/local/include/pangolin/var/varextra.h:
+
+/usr/local/include/pangolin/utils/file_utils.h:
+
+/usr/local/include/pangolin/gl/glsl.h:
+
+/usr/include/c++/5/cstdarg:
+
+/usr/local/include/pangolin/gl/glchar.h:
+
+/usr/local/include/pangolin/gl/glfont.h:
+
+/usr/local/include/pangolin/video/video_interface.h:
+
+/usr/local/include/pangolin/gl/glstate.h:
+
+/usr/local/include/pangolin/gl/glvbo.h:
+
+/usr/local/include/pangolin/display/window.h:
+
+/usr/local/include/pangolin/compat/type_traits.h:
+
+/usr/local/include/pangolin/utils/type_convert.h:
+
+/usr/local/include/pangolin/utils/params.h:
+
+/usr/local/include/pangolin/handler/handler_enums.h:
+
+/usr/local/include/pangolin/display/display.h:
+
+/usr/local/include/pangolin/gl/gl.hpp:
+
+/usr/local/include/pangolin/image/pixel_format.h:
+
+/usr/local/include/pangolin/image/copy.h:
+
+/usr/local/include/pangolin/image/managed_image.h:
+
+/usr/local/include/pangolin/image/typed_image.h:
+
+/usr/local/include/pangolin/video/video_input.h:
+
+/usr/local/include/pangolin/display/opengl_render_state.h:
+
+/usr/local/include/pangolin/gl/glpangoglu.h:
+
+/usr/include/GL/gl.h:
+
+/usr/include/GL/glew.h:
+
+/usr/local/include/pangolin/gl/gl.h:
+
+/usr/local/include/pangolin/utils/format_string.h:
+
+../include/viewer.h:
+
+../include/MapPoint.h:
+
+/usr/local/include/pangolin/image/image_io.h:
 
 ../include/Map.h:
 
@@ -686,6 +839,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/wobble_suppression.hpp:
 
+/usr/local/include/pangolin/image/memcpy.h:
+
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching_inl.hpp:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/log.hpp:
@@ -693,6 +848,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/frame_source.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h:
+
+/usr/include/c++/5/bits/stream_iterator.h:
 
 /usr/include/c++/5/fstream:
 
@@ -707,6 +864,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/include/glog/logging.h:
 
 /usr/include/c++/5/bits/stl_list.h:
+
+/usr/local/include/pangolin/video/video_exception.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp:
 
@@ -764,6 +923,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/logger.h:
 
+/usr/local/include/pangolin/config.h:
+
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/kdtree_single_index.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/heap.h:
@@ -788,6 +949,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/saving.h:
 
+/usr/local/include/pangolin/utils/log.h:
+
 /usr/include/c++/5/bits/stl_multimap.h:
 
 /usr/include/c++/5/map:
@@ -795,6 +958,10 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/allocator.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/any.h:
+
+/usr/include/c++/5/bits/stl_stack.h:
+
+/usr/local/include/pangolin/gl/glplatform.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/flann/params.h:
 
@@ -872,6 +1039,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/local/include/sophus/common.hpp:
 
+/usr/include/GL/glu.h:
+
 ../include/BackEnd.h:
 
 /usr/local/include/sophus/types.hpp:
@@ -938,6 +1107,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/local/include/eigen3/Eigen/LU:
 
+/usr/local/include/pangolin/var/varvaluet.h:
+
 /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
@@ -980,6 +1151,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/include/x86_64-linux-gnu/bits/mathdef.h:
 
+/usr/local/include/pangolin/utils/uri.h:
+
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/affine.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -990,6 +1163,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/fma4intrin.h:
 
+/usr/local/include/pangolin/utils/file_extension.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
 
 /usr/include/x86_64-linux-gnu/bits/huge_vall.h:
@@ -999,6 +1174,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/include/c++/5/bits/parse_numbers.h:
 
 /usr/include/c++/5/ctime:
+
+/usr/local/include/pangolin/display/viewport.h:
 
 /usr/include/eigen3/Eigen/Eigenvalues:
 
@@ -1096,6 +1273,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/popcntintrin.h:
 
+/usr/local/include/pangolin/utils/assert.h:
+
 /usr/include/c++/5/ext/aligned_buffer.h:
 
 /usr/include/c++/5/cerrno:
@@ -1114,7 +1293,11 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/include/c++/5/bits/streambuf_iterator.h:
 
+/usr/local/include/pangolin/handler/handler.h:
+
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/local/include/pangolin/gl/glinclude.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/warpers_inl.hpp:
 
@@ -1162,6 +1345,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmivlintrin.h:
 
+/usr/local/include/pangolin/display/view.h:
+
 /usr/include/c++/5/bits/cxxabi_forced.h:
 
 /usr/include/c++/5/set:
@@ -1175,6 +1360,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/fxsrintrin.h:
+
+/usr/local/include/pangolin/gl/gldraw.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavesintrin.h:
 
@@ -1246,6 +1433,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/include/c++/5/ext/alloc_traits.h:
 
+/usr/local/include/pangolin/image/image.h:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/videostab/fast_marching.hpp:
@@ -1257,6 +1446,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/include/c++/5/new:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
 
 /usr/include/c++/5/cctype:
 
@@ -1320,6 +1511,10 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/include/c++/5/bits/stl_iterator_base_funcs.h:
 
+/usr/local/include/pangolin/plot/plotter.h:
+
+/usr/local/include/pangolin/gl/colour.h:
+
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/viz/vizcore.hpp:
 
 /usr/include/eigen3/Eigen/QR:
@@ -1354,6 +1549,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/local/include/eigen3/Eigen/src/Core/Ref.h:
 
+/usr/local/include/pangolin/plot/range.h:
+
 /usr/local/include/eigen3/Eigen/Jacobi:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/OrthoMethods.h:
@@ -1377,6 +1574,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/lib/gcc/x86_64-linux-gnu/5/include/avx512vbmiintrin.h:
 
 /usr/include/c++/5/type_traits:
+
+/usr/local/include/pangolin/plot/datalog.h:
 
 /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/operations.hpp:
 
@@ -1413,6 +1612,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/include/features.h:
 
 /usr/include/c++/5/initializer_list:
+
+/usr/local/include/pangolin/display/widgets/widgets.h:
 
 /usr/include/c++/5/queue:
 
@@ -1496,6 +1697,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+/usr/local/include/pangolin/display/attach.h:
+
 /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/wmmintrin.h:
@@ -1525,6 +1728,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/include/c++/5/bits/cpp_type_traits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/prfchwintrin.h:
+
+/usr/local/include/pangolin/pangolin.h:
 
 /usr/include/c++/5/bits/functional_hash.h:
 
@@ -1561,6 +1766,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/include/c++/5/bits/deque.tcc:
 
 /usr/include/limits.h:
+
+/usr/local/include/pangolin/utils/simple_math.h:
 
 /usr/include/c++/5/bits/uniform_int_dist.h:
 
@@ -1672,6 +1879,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
+/usr/local/include/pangolin/platform.h:
+
 /usr/include/c++/5/bits/basic_ios.h:
 
 /usr/include/ctype.h:
@@ -1718,6 +1927,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/xsaveoptintrin.h:
 
+/usr/local/include/pangolin/gl/gltext.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/pcommitintrin.h:
@@ -1727,6 +1938,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/clflushoptintrin.h:
+
+/usr/local/include/pangolin/video/video_output_interface.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/xsavecintrin.h:
 
@@ -1745,6 +1958,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/local/include/eigen3/Eigen/src/Core/Diagonal.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:
+
+/usr/local/include/pangolin/video/stream_info.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
@@ -1778,11 +1993,15 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
+../include/Convert.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
+
+/usr/include/c++/5/stack:
 
 /usr/include/c++/5/ext/type_traits.h:
 
@@ -1876,6 +2095,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
+/usr/local/include/pangolin/gl/glformattraits.h:
+
 /usr/include/c++/5/streambuf:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
@@ -1929,6 +2150,8 @@ example/CMakeFiles/stereo_kitti.dir/stereo_kitti.cpp.o: ../example/stereo_kitti.
 /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h:
 
 /usr/local/include/eigen3/Eigen/Householder:
+
+/usr/local/include/pangolin/gl/glpixformat.h:
 
 /usr/local/include/eigen3/Eigen/src/Householder/Householder.h:
 
