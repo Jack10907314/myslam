@@ -33,7 +33,7 @@ void Frame::SetKeyframe(){
 }
 
 void Frame::DetectFeature(){
-    cv::Ptr<cv::ORB> detector = cv::ORB::create(400);
+    cv::Ptr<cv::ORB> detector = cv::ORB::create();
 	//檢測並計算成描述子
 	detector->detectAndCompute(leftImg_, cv::Mat(), leftKeypoint_, leftDescriptor_);
 	detector->detectAndCompute(rightImg_, cv::Mat(), rightKeypoint_, rightDescriptor_);

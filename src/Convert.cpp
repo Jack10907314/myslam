@@ -14,4 +14,25 @@ namespace myslam{
         return SE3(R, t);
     }
 
+    cv::Point3f Convert::toPoint3f(Vec3 position){
+        cv::Point3f point(position(0,0), position(1,0), position(2,0));
+        return point;
+    }
+
+    cv::Mat Convert::Get_R(SE3 pose){
+        MatXX T = pose.matrix();
+        cv::Mat R = (cv::Mat_<double>(3,3) << 
+            T(0,0), T(0,1), T(0,2),
+            T(1,0), T(1,1), T(1,2),
+            T(2,0), T(2,1), T(2,2));
+        return R;
+    }
+    cv::Mat Convert::Get_t(SE3 pose){
+        MatXX T = pose.matrix();
+        cv::Mat t = (cv::Mat_<double>(3,1) << 
+            T(0,3),
+            T(1,3),
+            T(2,3));
+        return t;
+    }
 }

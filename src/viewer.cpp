@@ -59,8 +59,8 @@ void Viewer::ThreadLoop() {
             FollowCurrentFrame(vis_camera);
             
             cv::Mat img = PlotFrameImage();
-            cv::imshow("image", img);
-            cv::waitKey(1);
+            //cv::imshow("image", img);
+            //cv::waitKey(1);
         }
 
         if (map_) {
@@ -151,12 +151,25 @@ void Viewer::DrawMapPoints() {
 
     glPointSize(2);
     glBegin(GL_POINTS);
+    for (auto& kf : map_->GetKeyFrames()) {
+        for(auto& mappoint : kf->leftMapPoint_)
+        {
+            if(!mappoint) continue;
+            auto pos = mappoint->GetPosition();
+            glColor3f(red[0], red[1], red[2]);
+            glVertex3d(pos[0], pos[1], pos[2]);
+        }
+    }
+    glEnd();
+
+    /*glPointSize(2);
+    glBegin(GL_POINTS);
     for (auto& landmark : active_landmarks_) {
         auto pos = landmark->GetPosition();
         glColor3f(red[0], red[1], red[2]);
         glVertex3d(pos[0], pos[1], pos[2]);
     }
-    glEnd();
+    glEnd();*/
 }
 
 }  // namespace myslam

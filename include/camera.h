@@ -35,6 +35,14 @@ class Camera {
         return k;
     }
 
+    cv::Mat GetIntrinsic() const {
+        cv::Mat K = (cv::Mat_<double>(3,3) <<
+            fx_, 0, cx_, 
+            0, fy_, cy_,
+            0, 0, 1);
+        return K;
+    }
+
     // coordinate transform: world, camera, pixel
     Vec3 world2camera(const Vec3 &p_w, const SE3 &T_c_w);
 
